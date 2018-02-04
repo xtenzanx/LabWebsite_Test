@@ -35,6 +35,116 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
+    <style>
+    #tf-professor {
+        padding: 80px 0;
+    }
+    .papers {
+        position: relative;
+        width: 90%;
+        padding: 2em;
+        margin: 0px auto;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    .papers, .papers:before, .papers:after {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: inset 0 0 30px rgba(0,0,0,0.1), 1px 1px 3px rgba(0,0,0,0.2);
+    }
+    .papers:before, .papers:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: rotateZ(2.5deg);
+        -o-transform: rotate(2.5deg);
+        transform: rotateZ(2.5deg);
+        z-index: -1;
+    }
+    :before, :after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .papers:after {
+        -webkit-transform: rotateZ(-2.5deg);
+        -o-transform: rotate(-2.5deg);
+        transform: rotateZ(-2.5deg);
+    }
+    .papers img{
+        max-width: 100%;
+    }
+    .papers h2{
+        margin: 30px 0;
+        font-size: 40px;
+    }
+    .papers h2 span{
+        font-size: 22px;
+    }
+
+    #tf-services .about-list{
+        text-align: left;
+        max-width: 300px;
+        margin: 12px auto 20px auto;
+    }
+
+
+
+
+
+    #tf-plans{
+        background: url(../img/05.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #ffffff;
+    }
+
+    #tf-plans .overlay{
+        background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+        padding: 80px 0;
+        background-attachment: fixed;
+    }
+    #plan {
+        padding: 30px 0;
+    }
+    #plan .item{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #plan .item p {
+        font-weight: 400;
+        margin: 30px 0;
+        color: #d1d1d1;
+    }
+
+    #plan table{
+        text-align: left;
+    }
+    #plan .td_title{
+        max-width: 400px;
+        height: 50px;
+    }
+
+
+    #testimonial .td_title{
+        max-width: 580px;
+        /* height: 50px; */
+    }
+    </style>
+
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -80,8 +190,8 @@
     <div id="tf-home" class="text-center">
         <div class="overlay">
             <div class="content">
-                <h1>Welcome on <strong><span class="color">Spirit8</span></strong></h1>
-                <p class="lead">We are a digital agency with <strong>years of experience</strong> and with <strong>extraordinary people</strong></p>
+                <h1><strong><span class="color">軟體工程實驗室</span></strong> && <strong><span class="color">軟體開發與測試實驗室</span></strong></h1>
+                <p class="lead"><strong>SELab</strong> & <strong>SDTLab</strong></p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>
@@ -93,7 +203,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/02.png" class="img-responsive">
+                    <img src="image/welcome.png" class="img-responsive">
                 </div>
                 <div class="col-md-6">
                     <div class="about-text">
@@ -124,189 +234,240 @@
         </div>
     </div>
 
+    <!-- Professor Page
+    ==========================================-->
+    <div id="tf-professor" class="text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2><strong>指導</strong>教授</h2>
+                <div class="line">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="papers text-center">
+                        <img src="image/mugshot/wkc-A.png" alt="">
+                        <h2>陳偉凱 <span>教授</span></h2>
+                        <p>美國北卡州大 電機電腦工程系<br>計算機工程碩士</p>
+                        <p>美國北卡州大 電機電腦工程系<br>計算機工程博士</p>
+                        <p>宏裕科技大樓 1523</p>
+                        <p>wkc@csie.ntut.edu.tw</p>
+                        <p><a href="http://www.cc.ntut.edu.tw/~wkchen" target="blank">http://www.cc.ntut.edu.tw/~wkchen</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="papers text-center">
+                        <img src="./image/mugshot/cliu-A.png" alt="">
+                        <h2>劉建宏<span>教授</span></h2>
+                        <p>美國南加州大學<br>電機工程碩士</p>
+                        <p>美國德州大學 阿靈頓分校<br>計算機科學與工程博士</p>
+                        <p>宏裕科技大樓 1521</p>
+                        <p>cliu@ntut.edu.tw</p>
+                        <p><a href="http://www.cc.ntut.edu.tw/~cliu" target="blank">http://www.cc.ntut.edu.tw/~cliu</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Research Section
+    ==========================================-->
+    <div id="tf-services" class="text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2><strong>研究</strong>重點</h2>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="clearfix"></div>
+                <!-- <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
+            </div>
+            <!-- <div class="space"></div> -->
+            <div class="row">
+                <div class="col-md-4 col-sm-12 service">
+                    <i class="fa fa-desktop"></i>
+                    <h4><strong>Software Engineering</strong></h4>
+                    <ul class="about-list">
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Object-Oriented Analysis and Design</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Design Patterns</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Agile Process</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Visual Language</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Personal Process Improvement</em>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 service">
+                    <i class="fa fa-mobile"></i>
+                    <h4><strong>Software Testing</strong></h4>
+                    <ul class="about-list">
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Android App Testing</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Cloud Testing Service</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Web & Web Service Testing</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>GUI Testing</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Game Testing</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Embedded Testing</em>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 service">
+                    <i class="fa fa-bullhorn"></i>
+                    <h4><strong>Software Development</strong></h4>
+                    <ul class="about-list">
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>App Development</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>HTML5 Application Development</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Computer Games</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>E-learning</em>
+                        </li>
+                        <li>
+                            <span class="fa fa-dot-circle-o"></span>
+                            <em>Wearable Device App</em>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Plans Section
+    ==========================================-->
+    <div id="tf-plans" class="text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title center">
+                    <h2><strong>研究</strong>計畫</h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div id="plan" class="owl-carousel owl-theme">
+                            <?php
+                            $handle = fopen("data/projects.json","rb");
+                            $content = "";
+                            while (!feof($handle)) {
+                                    $content .= fread($handle, 10000);
+                            }
+                            fclose($handle);
+                            
+                            $items_count = 1;
+
+                            $content = json_decode($content);
+                            echo "<div class=\"item\"><table class=\"table\"><tbody>";
+                            foreach ($content as $key => $value) {
+                                if($items_count>10){
+                                    echo "</tbody></table></div>";
+                                    echo "<div class=\"item\"><table class=\"table\"><tbody>";
+                                    $items_count = 1;
+                                }
+                                
+                                echo "
+                                <tr>
+                                    <td>$value->year</td>
+                                    <td>$value->unit</td>
+                                    <td class=\"td_title\">$value->project_name</td>
+                                    <td>$value->comments</td>
+                                </tr>
+                                ";
+                                $items_count++;
+                            }
+                            echo "</tbody></table></div>";
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Team Page
     ==========================================-->
     <div id="tf-team" class="text-center">
         <div class="overlay">
             <div class="container">
                 <div class="section-title center">
-                    <h2>Meet <strong>our team</strong></h2>
+                    <h2>實驗室<strong>成員</strong></h2>
                     <div class="line">
                         <hr>
                     </div>
                 </div>
 
                 <div id="team" class="owl-carousel owl-theme row">
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                    $handle = fopen("data/members.json","rb");
+                    $content = "";
+                    while (!feof($handle)) {
+                            $content .= fread($handle, 10000);
+                    }
+                    fclose($handle);
 
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
+                    $content = json_decode($content);
+                    foreach ($content as $key => $value) {
+                        $photo = $value->photo . '-A.png';
+                        if($value->photo == 'none'){
+                            $photo = 'none.png';
+                        }
+                        echo "
+                        <div class=\"item\">
+                            <div class=\"thumbnail\">
+                                <img src=\"image/mugshot/$photo\" alt=\"...\" class=\"img-circle team-img\">
+                                <div class=\"caption\">
+                                    <h3>$value->name</h3>
+                                    <p>$value->year 級</p>
+                                    <p>暫無</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
+                        ";
+                    }
+                    ?>
                 </div>
                 
-            </div>
-        </div>
-    </div>
-
-    <!-- Services Section
-    ==========================================-->
-    <div id="tf-services" class="text-center">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Take a look at <strong>our services</strong></h2>
-                <div class="line">
-                    <hr>
-                </div>
-                <div class="clearfix"></div>
-                <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>
-            </div>
-            <div class="space"></div>
-            <div class="row">
-                <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-desktop"></i>
-                    <h4><strong>Web design</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
-
-                <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-mobile"></i>
-                    <h4><strong>Mobile Apps</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
-
-                <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-camera"></i>
-                    <h4><strong>Photography</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
-
-                <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-bullhorn"></i>
-                    <h4><strong>Marketing</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Clients Section
-    ==========================================-->
-    <div id="tf-clients" class="text-center">
-        <div class="overlay">
-            <div class="container">
-
-                <div class="section-title center">
-                    <h2>Some of <strong>our Clients</strong></h2>
-                    <div class="line">
-                        <hr>
-                    </div>
-                </div>
-                <div id="clients" class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="img/client/01.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/02.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/03.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/04.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/05.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/06.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/07.png">
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
@@ -316,14 +477,14 @@
     <div id="tf-works">
         <div class="container"> <!-- Container -->
             <div class="section-title text-center center">
-                <h2>Take a look at <strong>our services</strong></h2>
+                <h2>研究室<strong>設備</strong></h2>
                 <div class="line">
                     <hr>
                 </div>
                 <div class="clearfix"></div>
-                <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>
+                <!-- <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
             </div>
-            <div class="space"></div>
+            <!-- <div class="space"></div> -->
 
             <div class="categories">
                 
@@ -482,7 +643,7 @@
         <div class="overlay">
             <div class="container">
                 <div class="section-title center">
-                    <h2><strong>Our clients’</strong> testimonials</h2>
+                    <h2><strong>Group</strong> Meeting</h2>
                     <div class="line">
                         <hr>
                     </div>
@@ -490,66 +651,36 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div id="testimonial" class="owl-carousel owl-theme">
-                            <div class="item">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Date</th>
-                                            <th>Name</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>2016-03-02</td>
-                                            <td>黃炳宏</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2016-02-16</td>
-                                            <td>張哲偉</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2016-02-16</td>
-                                            <td>張哲偉</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2016-02-16</td>
-                                            <td>張哲偉</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2016-02-16</td>
-                                            <td>張哲偉</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2016-02-16</td>
-                                            <td>張哲偉</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2016-02-16</td>
-                                            <td>張哲偉</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2016-02-16</td>
-                                            <td>張哲偉</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2016-02-16</td>
-                                            <td>張哲偉</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <!-- <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p> -->
-                            </div>
+                            <?php
+                            $handle = fopen("data/presentationHistory.json","rb");
+                            $content = "";
+                            while (!feof($handle)) {
+                                    $content .= fread($handle, 10000);
+                            }
+                            fclose($handle);
+                            
+                            $items_count = 1;
 
-                            <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                            </div>
-
-                            <div class="item">
-                                <h5>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h5>
-                                <p><strong>Dean Martin</strong>, CEO Acme Inc.</p>
-                            </div>
+                            $content = json_decode($content);
+                            echo "<div class=\"item\"><table class=\"table\"><tbody>";
+                            foreach ($content as $key => $value) {
+                                if($items_count>10){
+                                    echo "</tbody></table></div>";
+                                    echo "<div class=\"item\"><table class=\"table\"><tbody>";
+                                    $items_count = 1;
+                                }
+                                
+                                echo "
+                                <tr>
+                                    <td>$value->date</td>
+                                    <td>$value->name</td>
+                                    <td class=\"td_title\">$value->topic</td>
+                                </tr>
+                                ";
+                                $items_count++;
+                            }
+                            echo "</tbody></table></div>";
+                            ?>
                         </div>
                     </div>
                 </div>

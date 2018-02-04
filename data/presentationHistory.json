@@ -1,0 +1,477 @@
+[{
+    "date": "2016-03-02",
+    "name": "黃泓鳴",
+    "topic": "Software Debugging Patterns for Novice Programmers"
+},{
+    "date": "2016-02-16",
+    "name": "張偉哲",
+    "topic": "Reducing Web Test Cases Aging by means of Robust XPath Locators"
+},{
+    "date": "2016-02-09",
+    "name": "黃映瑞",
+    "topic": "Action-Conditional Video Prediction using Deep Networks in Atari Games"
+},{
+    "date": "2016-02-09",
+    "name": "李柏鋐",
+    "topic": "An approach to prioritize code smells for refactoring"
+},{
+    "date": "2016-01-19",
+    "name": "何書杭",
+    "topic": "Model-based Testing of Mobile Systems – An Empirical Study on QuizUp Android App"
+},{
+    "date": "2016-01-19",
+    "name": "陳炳宏",
+    "topic": "Facilitating Monkey Test by Detecting Operable Regions in Rendered GUI of Mobile Game Apps"
+},{
+    "date": "2016-01-05",
+    "name": "孫季加",
+    "topic": "jÄk: Using Dynamic Analysis to Crawl and Test Modern Web Application"
+},{
+    "date": "2016-12-22",
+    "name": "黃靖文",
+    "topic": "Using Model Checking to Generate Test Cases for Android"
+},{
+    "date": "2016-12-08",
+    "name": "秦永昭",
+    "topic": "Testing for poor responsiveness in android applications"
+},{
+    "date": "2016-12-08",
+    "name": "陳又樫",
+    "topic": "A Recursive Crawler Algorithm to Detect Crash in Android Application"
+},{
+    "date": "2016-11-24",
+    "name": "黃泓鳴",
+    "topic": "CAPTCHA Recognition with Active Deep Learning"
+},{
+    "date": "2016-11-17",
+    "name": "李宗哲",
+    "topic": "PAT: A Parallel GUI Testing Framework for Android Applications"
+},{
+    "date": "2016-11-03",
+    "name": "黃映瑞",
+    "topic": "A Conceptual Framework for the Comparison of Fully Automated GUI Testing Techniques."
+},{
+    "date": "2016-11-03",
+    "name": "李柏鋐",
+    "topic": "Comparing and experimenting machine learning techniques for code smell detection."
+},{
+    "date": "2016-10-13",
+    "name": "廖振諺",
+    "topic": "Comparison and evaluation of code clone detection techniques and tools A qualitative approach (Part II)"
+},{
+    "date": "2016-10-13",
+    "name": "陳炳宏",
+    "topic": "Why is unit-testing in computer games difficult?"
+},{
+    "date": "2016-10-06",
+    "name": "陳又樫",
+    "topic": "An Automated Testing Platform for Mobile Applications"
+}, {
+    "date": "2016-10-06",
+    "name": "孫季加",
+    "topic": "Leveraging Existing Tests in Automated Test Generation for Web Applications"
+}, {
+    "date": "2016-09-29",
+    "name": "黃泓鳴",
+    "topic": "WAVENET: A GENERATIVE MODEL FOR RAW AUDIO"
+}, {
+    "date": "2016-09-22",
+    "name": "黃靖文",
+    "topic": "Towards Black Box Testing of Android Apps"
+}, {
+    "date": "2016-09-22",
+    "name": "廖振諺",
+    "topic": "Comparison and evaluation of code clone detection techniques and tools A qualitative approach"
+}, {
+    "date": "2016-09-07",
+    "name": "李宗哲",
+    "topic": "A Combined Technique of GUI Ripping and Input Perturbation Testing for Android Apps"
+}, {
+    "date": "2016-08-24",
+    "name": "李柏鋐",
+    "topic": " Identification of Move Method Refactoring"
+}, {
+    "date": "2016-08-24",
+    "name": "秦永昭",
+    "topic": "Testing location-based function services for mobile applications"
+}, {
+    "date": "2016-07-27",
+    "name": "陳炳宏",
+    "topic": "Monkey Gamer: Automatic Profiling of Android Games"
+}, {
+    "date": "2016-08-03",
+    "name": "陳祐翎",
+    "topic": "Confidentiality and Privacy Information Security Risk Assessment for Android-Based Mobile Devices"
+}, {
+    "date": "2016-08-10",
+    "name": "黃映瑞",
+    "topic": "Mining Android App Usages for Generating Actionable GUI-based Execution Scenarios"
+}, {
+    "date": "2016-08-03",
+    "name": "何書杭",
+    "topic": "Direct-dependency-based software compatibility testing"
+}, {
+    "date": "2016-07-27",
+    "name": "陳炳宏",
+    "topic": "Monkey Gamer: Automatic Profiling of Android Games"
+}, {
+    "date": "2016-07-27",
+    "name": "孫季加",
+    "topic": " Guided Mutation Testing for JavaScript Web Applications"
+}, {
+    "date": "2016-07-20",
+    "name": "陳又樫",
+    "topic": "AppACTS: Mobile App Automated Compatibility Testing Service"
+}, {
+    "date": "2016-07-14",
+    "name": "黃靖文",
+    "topic": "EasiCrawl: A Sleep-aware Schedule Method for Crawling IoT Sensors"
+}, {
+    "date": "2016-07-14",
+    "name": "廖振諺",
+    "topic": "Utilization of Method Graphs to Measure Cohesion in Object Oriented Software"
+}, {
+    "date": "2016-05-19",
+    "name": "黃泓鳴",
+    "topic": "Code Coverage of Adaptive Random Testing"
+}, {
+    "date": "2016-05-19",
+    "name": "李宗哲",
+    "topic": "A Context-aware Approach for Dynamic GUI Testing of Android Application"
+}, {
+    "date": "2016-04-28",
+    "name": "黃映瑞",
+    "topic": "Automated Test Input Generation for Android: Are We There Yet?"
+}, {
+    "date": "2016-04-28",
+    "name": "秦永昭",
+    "topic": "The iMPAcT Tool: Testing UI Patterns on Mobile Applications"
+}, {
+    "date": "2016-03-31",
+    "name": "林容榆",
+    "topic": "Mobile Compatibility Testing Using Multi-objective Genetic Algorithm"
+}, {
+    "date": "2016-03-31",
+    "name": "何書杭",
+    "topic": "Automatic Android GUI Traversal with High Coverage"
+},  {
+    "date": "2016-03-24",
+    "name": "鄭荃樺",
+    "topic": "Evaluation of Web Vulnerability Scanners"
+},  {
+    "date": "2016-03-24",
+    "name": "陳又樫",
+    "topic": "Pattern Based GUI testing for Mobile Applications"
+},  {
+    "date": "2016-03-17",
+    "name": "林容榆",
+    "topic": "Compatibility Testing service for Mobile application"
+},  {
+    "date": "2016-03-10",
+    "name": "蔡泳誠",
+    "topic": "Effectiveness of Multi-device Testing Mobile Applications"
+},  {
+    "date": "2016-03-10",
+    "name": "孫季加",
+    "topic": "Automated Generation of Oracles for Testing User-interaction features of Mobile Apps"
+},  {
+    "date": "2016-02-17",
+    "name": "周世邦",
+    "topic": "Automated Mobile Testing as a Service (AM-TaaS)"
+},  {
+    "date": "2016-02-17",
+    "name": "廖振諺",
+    "topic": "A STUDY ON THE SOFTWARE TEST CASE REUSE MODEL OF FEATURE ORIENTED"
+},  {
+    "date": "2016-02-02",
+    "name": "黃靖文",
+    "topic": "A Reusable Acceptance Testing Architecture For MicroService In BDD"
+},  {
+    "date": "2016-01-20",
+    "name": "黃泓鳴",
+    "topic": "A design goal and design pattern based approach for development of game engines for mobile platforms"
+},  {
+    "date": "2016-01-14",
+    "name": "李宗哲",
+    "topic": "The Research and Implementation of Automatic Unit Test Recording Framework"
+},  {
+    "date": "2016-01-14",
+    "name": "歐陽騰",
+    "topic": "PATS: A Parallel GUI Testing Framework for Android Applications"
+},  {
+    "date": "2015-12-31",
+    "name": "秦永昭",
+    "topic": "Online Game Testing Using Scenario-based Control of Massive Virtual Users"
+},  {
+    "date": "2015-12-31",
+    "name": "陳科銘",
+    "topic": "Dynamic Test Input Generation for Web Applications"
+},  {
+    "date": "2015-12-24",
+    "name": "李柏鋐",
+    "topic": "Model-based Conformance Testing for Android"
+},  {
+    "date": "2015-12-17",
+    "name": "何書杭",
+    "topic": "OO design in mobile GUI testing"
+}, {
+    "date": "2015-12-10",
+    "name": "陳祐翎",
+    "topic": "MDoctor: A Mobile Malware Prognosis Application"
+}, {
+    "date": "2015-12-10",
+    "name": "古健樺",
+    "topic": "Automated Compatibility Testing Method for Software Logic by Using Symbolic Execution"
+}, {
+    "date": "2015-11-26",
+    "name": "林容榆",
+    "topic": "Mobile Capture forWearable Computer Usability Testing"
+}, {
+    "date": "2015-11-05",
+    "name": "陳炳宏",
+    "topic": "Research on the Design of Test Strategy for WebGame"
+}, {
+    "date": "2015-11-05",
+    "name": "周世邦",
+    "topic": "Compatibility Testing Service for Mobile Applications"
+}, {
+    "date": "2015-10-29",
+    "name": "鄭荃樺",
+    "topic": "CRAXweb: Automatic web application testing and attack generation"
+}, {
+    "date": "2015-10-15",
+    "name": "蔡泳誠",
+    "topic": "On the Accuracy, Efficiency, and Reusability of Automated Test Oracles for Android Devices"
+}, {
+    "date": "2015-10-15",
+    "name": "周世邦",
+    "topic": "Mobile Testing-As-A-Service (MTaaS)– Infrastructures, Issues, Solutions and Needs"
+}, {
+    "date": "2015-10-08",
+    "name": "楊凱霖",
+    "topic": "JDeodorant: Identification and Rem oval of Type-Checking Bad Smells"
+}, {
+    "date": "2015-10-08",
+    "name": "歐陽騰",
+    "topic": "Considering Context Events in Event-Based Testing of Mobile Application"
+}, {
+    "date": "2015-09-24",
+    "name": "陳科銘",
+    "topic": "Crawl-Based Analysis of Web Applications: Prospects and Challenges"
+}, {
+    "date": "2015-09-24",
+    "name": "陳祐翎",
+    "topic": "Attack Tree Based Android Malware Detecion with Hybrid Analysis"
+}, {
+    "date": "2015-09-17",
+    "name": "陳炳宏",
+    "topic": "A New Design Based Software Coupling Metric"
+}, {
+    "date": "2015-09-17",
+    "name": "陳祐翎",
+    "topic": "Attack Tree Based Android Malware Detecion with Hybrid Analysis"
+}, {
+    "date": "2015-09-03",
+    "name": "古健樺",
+    "topic": "MobiGUITAR: Automated Model-Based Testing of Mobile Apps"
+}, {
+    "date": "2015-08-27",
+    "name": "鄭荃樺",
+    "topic": "Research and Design on Web Application Vulnerability Scanning Service"
+}, {
+    "date": "2015-08-27",
+    "name": "周世邦",
+    "topic": "Mobile Functional Test on TaaS Environment"
+}, {
+    "date": "2015-08-20",
+    "name": "蔡泳誠",
+    "topic": "On the Accuracy, Efficiency, and Reusability of Automated Test Oracles for Android Devices"
+}, {
+    "date": "2015-08-13",
+    "name": "林容榆",
+    "topic": "Introduction of Wearable"
+}, {
+    "date": "2015-08-06",
+    "name": "楊凱霖",
+    "topic": "Feature Envy Factor"
+}, {
+    "date": "2015-07-30",
+    "name": "歐陽騰",
+    "topic": "A GUI Crawling-based technique for Android Mobile Application Testing"
+}, {
+    "date": "2015-07-23",
+    "name": "陳科銘",
+    "topic": "Exposing the Hidden-Web"
+}, {
+    "date": "2015-07-23",
+    "name": "歐陽騰",
+    "topic": "Generating test cases for Q-learning algorithm"
+}, {
+    "date": "2015-07-16",
+    "name": "陳祐翎",
+    "topic": "Securiy Testing for Android mHealth Apps"
+}, {
+    "date": "2015-07-02",
+    "name": "古健樺",
+    "topic": "JSEFT: Automated JavaScript Unit Test Generation"
+}, {
+    "date": "2015-07-02",
+    "name": "鄭荃樺",
+    "topic": "Regression Testing Ajax Applications:Coping with Dynamism"
+}, {
+    "date": "2015-05-21",
+    "name": "楊凱霖",
+    "topic": "Clone Detection in Source Code by Frequent Itemset Techiques"
+}, {
+    "date": "2015-05-21",
+    "name": "林容榆",
+    "topic": "Testing of Wearable Monitors in a Real-World Hospital Environment. What Lessons Can Be Learnt?"
+}, {
+    "date": "2015-04-02",
+    "name": "陳炳宏",
+    "topic": "Research on the definition and model of software testing quality"
+}, {
+    "date": "2015-03-26",
+    "name": "古健樺",
+    "topic": "Design and development of a user interface to customize web testing scenarios"
+}, {
+    "date": "2015-03-26",
+    "name": "林承甫",
+    "topic": "Type Analysis for JavaScript"
+}, {
+    "date": "2015-03-19",
+    "name": "鄭荃樺",
+    "topic": "Mobile Malware Security Challeges and Cloud-Based Detection"
+}, {
+    "date": "2015-03-19",
+    "name": "黃睿哲",
+    "topic": "SmartDroid: an Automatic System for Revealing UI-based Trigger Conditions in Android Applications"
+}, {
+    "date": "2015-03-12",
+    "name": "蔡泳誠",
+    "topic": "Security Threats in Cloud Computing"
+}, {
+    "date": "2015-03-12",
+    "name": "陳季宣",
+    "topic": "Android Input Events"
+}, {
+    "date": "2015-03-05",
+    "name": "楊凱霖",
+    "topic": "Duplicate code detection using anti-unification"
+}, {
+    "date": "2015-02-12",
+    "name": "林容榆",
+    "topic": "Smartphone-Centred Wearable Sensors Network for Monitoring Patients with Bipolar Disorder"
+}, {
+    "date": "2015-01-29",
+    "name": "朱宏文",
+    "topic": "Mobile Load Testing Challenges"
+}, {
+    "date": "2015-01-29",
+    "name": "周世邦",
+    "topic": "Comparing Openstack and VMware"
+}, {
+    "date": "2015-01-22",
+    "name": "舒一斌",
+    "topic": "Selective Just-in-Time Compilation for Client-side Mobile JavaScript Engine"
+}, {
+    "date": "2015-01-22",
+    "name": "歐陽騰",
+    "topic": "An Amulet for Trustworthy Wearable mHealth"
+}, {
+    "date": "2015-01-15",
+    "name": "徐嘉陞",
+    "topic": "An HTML5 Game Framework Supporting Automatic Game Testing"
+}, {
+    "date": "2015-01-15",
+    "name": "陳祐翎",
+    "topic": "Security Testing in Android Networks - A Practical Case Study"
+}, {
+    "date": "2014-12-25",
+    "name": "陳炳宏",
+    "topic": "A keyword-driven tool for testing Web applications (KeyDriver)"
+}, {
+    "date": "2014-12-18",
+    "name": "古健樺",
+    "topic": "Crushinator: A Framework towards Game-Independent Testing"
+}, {
+    "date": "2014-12-18",
+    "name": "崔宏康",
+    "topic": "Activity Page based Functional Test Automation for Android Application"
+}, {
+    "date": "2014-12-04",
+    "name": "鄭荃樺",
+    "topic": "About Penetration Testing"
+}, {
+    "date": "2014-12-04",
+    "name": "林承甫",
+    "topic": "Crawling AJAX by Inferring User Interface State Changes"
+}, {
+    "date": "2014-11-27",
+    "name": "蔡泳誠",
+    "topic": "Study of Methodology of Testing Mobile Games based on TTCN-3"
+}, {
+    "date": "2014-11-20",
+    "name": "楊凱霖",
+    "topic": "PBGT tool: an integrated modeling and testing environment for pattern-based GUI testing"
+}, {
+    "date": "2014-11-06",
+    "name": "黃睿哲",
+    "topic": "Automating GUI Testing for Android Applications"
+}, {
+    "date": "2014-10-30",
+    "name": "陳科銘",
+    "topic": "Accelerated test execution using GPUs"
+}, {
+    "date": "2014-10-30",
+    "name": "陳季宣",
+    "topic": "CRAXDroid: Automatic Android System Testing by Selective Symbolic Execution"
+}, {
+    "date": "2014-10-16",
+    "name": "陳炳宏",
+    "topic": "Resilient User Interface Level Tests"
+}, {
+    "date": "2014-10-16",
+    "name": "陳季宣",
+    "topic": "CRAXDroid: Automatic Android System Testing by Selective Symbolic Execution"
+}, {
+    "date": "2014-10-09",
+    "name": "朱宏文",
+    "topic": "Scenario-Based Approach for Blackbox Load Testing of Online Game Servers"
+}, {
+    "date": "2014-10-02",
+    "name": "舒一斌",
+    "topic": "A Scalable Architecture for the HTML5 X3D Integration Model X3DOM "
+}, {
+    "date": "2014-09-25",
+    "name": "徐嘉陞",
+    "topic": "What do game developers test in their products?"
+}, {
+    "date": "2014-09-25",
+    "name": "陳祐翎",
+    "topic": "A Whitebox Approach for Automated Security Testing of Android Applications on the Cloud"
+}, {
+    "date": "2014-09-04",
+    "name": "陳炳宏",
+    "topic": "Microscopic Coupling Metrics for Refactoring"
+}, {
+    "date": "2014-08-28",
+    "name": "朱宏文",
+    "topic": "Performance Testing Web Applications on the Cloud"
+}, {
+    "date": "2014-08-21",
+    "name": "舒一斌",
+    "topic": "HTML5 and WebSockets; challenges in network 3D collaboration"
+}, {
+    "date": "2014-08-21",
+    "name": "林承甫",
+    "topic": "Modeling the Navigation Behavior of Dynamic Web Applications"
+}, {
+    "date": "2014-08-14",
+    "name": "徐嘉陞",
+    "topic": "A framework for automated testing of javascript web applications"
+}, {
+    "date": "2014-08-07",
+    "name": "黃睿哲",
+    "topic": "Automatic Android GUI Traversal with High Coverage"
+}]
