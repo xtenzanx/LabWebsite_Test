@@ -209,23 +209,23 @@
                     <div class="about-text">
                         <div class="section-title">
                             <h4>About us</h4>
-                            <h2>Some words <strong>about us</strong></h2>
+                            <h2>關於<strong>軟體工程</strong></h2>
                             <hr>
                             <div class="clearfix"></div>
                         </div>
-                        <p class="intro">We love building and rebuilding brands through our  specific skills. Using colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
+                        <p class="intro">它涉及到程式設計語言、資料庫、軟體開發工具、系統平台、標準、設計模式等方面。其後的幾十年裡，各種有關軟體工程的技術、思想、方法和概念不斷被提出，軟體工程逐步發展為一門獨立的科學。</p>
                         <ul class="about-list">
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
-                                <strong>Mission</strong> - <em>We deliver uniqueness and quality</em>
+                                <strong>軟體工程</strong> - <em>Software Engineering</em>
                             </li>
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
-                                <strong>Skills</strong> - <em>Delivering fast and excellent results</em>
+                                <strong>軟體開發</strong> - <em>Software Development</em>
                             </li>
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
-                                <strong>Clients</strong> - <em>Satisfied clients thanks to our experience</em>
+                                <strong>軟體測試</strong> - <em>Software Testing</em>
                             </li>
                         </ul>
                     </div>
@@ -459,7 +459,7 @@
                                 <div class=\"caption\">
                                     <h3>$value->name</h3>
                                     <p>$value->year 級</p>
-                                    <p>暫無</p>
+                                    <p>論文題目</p>
                                 </div>
                             </div>
                         </div>
@@ -697,7 +697,7 @@
                 <div class="col-md-8 col-md-offset-2">
 
                     <div class="section-title center">
-                        <h2>Feel free to <strong>contact us</strong></h2>
+                        <h2><strong>新生</strong>專區</h2>
                         <div class="line">
                             <hr>
                         </div>
@@ -705,7 +705,7 @@
                         <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>            
                     </div>
 
-                    <form>
+                    <!-- <form>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -726,7 +726,7 @@
                         </div>
                         
                         <button type="submit" class="btn tf-btn btn-default">Submit</button>
-                    </form>
+                    </form> -->
 
                 </div>
             </div>
