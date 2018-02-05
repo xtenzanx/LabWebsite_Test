@@ -35,116 +35,6 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
-    <style>
-    #tf-professor {
-        padding: 80px 0;
-    }
-    .papers {
-        position: relative;
-        width: 90%;
-        padding: 2em;
-        margin: 0px auto;
-        margin-top: 40px;
-        font-size: 16px;
-    }
-    .papers, .papers:before, .papers:after {
-        background-color: #fff;
-        border: 1px solid #ccc;
-        box-shadow: inset 0 0 30px rgba(0,0,0,0.1), 1px 1px 3px rgba(0,0,0,0.2);
-    }
-    .papers:before, .papers:after {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        -webkit-transform: rotateZ(2.5deg);
-        -o-transform: rotate(2.5deg);
-        transform: rotateZ(2.5deg);
-        z-index: -1;
-    }
-    :before, :after {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-    .papers:after {
-        -webkit-transform: rotateZ(-2.5deg);
-        -o-transform: rotate(-2.5deg);
-        transform: rotateZ(-2.5deg);
-    }
-    .papers img{
-        max-width: 100%;
-    }
-    .papers h2{
-        margin: 30px 0;
-        font-size: 40px;
-    }
-    .papers h2 span{
-        font-size: 22px;
-    }
-
-    #tf-services .about-list{
-        text-align: left;
-        max-width: 300px;
-        margin: 12px auto 20px auto;
-    }
-
-
-
-
-
-    #tf-plans{
-        background: url(../img/05.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        color: #ffffff;
-    }
-
-    #tf-plans .overlay{
-        background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
-        background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
-        background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
-        background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
-        background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
-        padding: 80px 0;
-        background-attachment: fixed;
-    }
-    #plan {
-        padding: 30px 0;
-    }
-    #plan .item{
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    #plan .item p {
-        font-weight: 400;
-        margin: 30px 0;
-        color: #d1d1d1;
-    }
-
-    #plan table{
-        text-align: left;
-    }
-    #plan .td_title{
-        max-width: 400px;
-        height: 50px;
-    }
-
-
-    #testimonial .td_title{
-        max-width: 580px;
-        /* height: 50px; */
-    }
-    </style>
-
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -234,7 +124,7 @@
         </div>
     </div>
 
-    <!-- Professor Page
+    <!-- 指導教授
     ==========================================-->
     <div id="tf-professor" class="text-center">
         <div class="container">
@@ -271,7 +161,7 @@
         </div>
     </div>
 
-    <!-- Research Section
+    <!-- 研究重點
     ==========================================-->
     <div id="tf-services" class="text-center">
         <div class="container">
@@ -373,7 +263,7 @@
         </div>
     </div>
 
-    <!-- Plans Section
+    <!-- 研究計畫
     ==========================================-->
     <div id="tf-plans" class="text-center">
         <div class="overlay">
@@ -425,7 +315,7 @@
         </div>
     </div>
 
-    <!-- Team Page
+    <!-- 實驗室成員
     ==========================================-->
     <div id="tf-team" class="text-center">
         <div class="overlay">
@@ -472,12 +362,12 @@
         </div>
     </div>
 
-    <!-- Portfolio Section
+    <!-- 實驗室設備
     ==========================================-->
     <div id="tf-works">
         <div class="container"> <!-- Container -->
             <div class="section-title text-center center">
-                <h2>研究室<strong>設備</strong></h2>
+                <h2>實驗室<strong>設備</strong></h2>
                 <div class="line">
                     <hr>
                 </div>
@@ -493,10 +383,8 @@
                     <li class="pull-right">
                         <ol class="type">
                             <li><a href="#" data-filter="*" class="active">All</a></li>
-                            <li><a href="#" data-filter=".web">Web Design</a></li>
-                            <li><a href="#" data-filter=".photography">Photography</a></li>
-                            <li><a href="#" data-filter=".app" >Mobile App</a></li>
-                            <li><a href="#" data-filter=".branding" >Branding</a></li>
+                            <li><a href="#" data-filter=".electronic">電子器材</a></li>
+                            <li><a href="#" data-filter=".other">其它</a></li>
                         </ol>
                     </li>
                 </ul>
@@ -505,139 +393,41 @@
 
             <div id="lightbox" class="row">
 
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <?php
+                $handle = fopen("data/equipments.json","rb");
+                $content = "";
+                while (!feof($handle)) {
+                        $content .= fread($handle, 10000);
+                }
+                fclose($handle);
 
-                <div class="col-sm-6 col-md-3 col-lg-3 photography app">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
-                            </a>
+                $content = json_decode($content);
+                foreach ($content as $key => $value) {
+                    echo "
+                    <div class=\"col-sm-6 col-md-3 col-lg-3 $value->type\">
+                        <div class=\"portfolio-item\">
+                            <div class=\"hover-bg\">
+                                <a href=\"#\">
+                                    <div class=\"hover-text\">
+                                        <h4>$value->name</h4>
+                                        <small>Branding</small>
+                                        <div class=\"clearfix\"></div>
+                                        <i class=\"fa fa-plus\"></i>
+                                    </div>
+                                    <img src=\"$value->photo\" class=\"img-responsive\" alt=\"...\">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/05.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 app">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/06.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 photography web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/07.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/08.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                    ";
+                }
+                ?>
 
             </div>
         </div>
     </div>
 
-    <!-- Testimonials Section
+    <!-- Group Meeting
     ==========================================-->
     <div id="tf-testimonials" class="text-center">
         <div class="overlay">
@@ -688,7 +478,7 @@
         </div>
     </div>
 
-    <!-- Contact Section
+    <!-- 新生專區
     ==========================================-->
     <div id="tf-contact" class="text-center">
         <div class="container">
@@ -702,7 +492,91 @@
                             <hr>
                         </div>
                         <div class="clearfix"></div>
-                        <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>            
+                        <!-- <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>             -->
+                    </div>
+
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading_1">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                                    <span class="sp_big">如</span> 果 我 想 進 來 這 間 實 驗 室 ， 要 有 什 麼 條 件 呢 ？
+                                </a>
+                            </h4>
+                            </div>
+                            <div id="collapse_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_1">
+                            <div class="panel-body">
+                                <p>只要你能夠完成<strong>POSD</strong>課程的<a target="blank" href="http://www.cc.ntut.edu.tw/~wkchen/courses/gposd/gposd103_1/index.htm">第一次作業</a>就有資格成為我們實驗室的一員囉！</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading_2">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+                                    <span class="sp_big">實</span> 驗 室 成 員 的 日 常 生 活 在 做 什 麼 呢 ？
+                                </a>
+                            </h4>
+                            </div>
+                            <div id="collapse_2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_2">
+                            <div class="panel-body">
+                                <p>一年級的同學，就專心在修課上面，如果想參與實驗室的計畫也是 OK 的！</p>
+                                <p>二年級時就要專心準備論文，這時就要每週跟老師討論進度，慢慢完成自己的研究</p>
+                                <p>而每位同學每週都要參加 Group Meeting，一週大概 1 - 2 人，輪流報告一篇自己選定的 Paper 向大家分享</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading_3">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_3" aria-expanded="false" aria-controls="collapse_3">
+                                    <span class="sp_big">來</span> 實 驗 室 看 看 學 長 姊 吧 ！
+                                </a>
+                            </h4>
+                            </div>
+                            <div id="collapse_3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_3">
+                            <div class="panel-body">
+                                <p>我們共有兩間實驗室，分別在宏裕科技大樓 14 樓的 1421 以及 16 樓的 1623，如果想要來跟學長姐聊聊天，我們都很歡迎的！</p>
+                                <div class="row">
+                                    <div class="col-md-6"><img src="./image/1421sdtlab.png" class="img-responsive" alt=""></div>
+                                    <div class="col-md-6"><img src="./image/1623selab.png" class="img-responsive" alt=""></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading_4">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_4" aria-expanded="false" aria-controls="collapse_4">
+                                    <span class="sp_big">想</span> 跟 老 師 們 聊 聊 嗎 ？
+                                </a>
+                            </h4>
+                            </div>
+                            <div id="collapse_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_4">
+                            <div class="panel-body">
+                                <p>來到第六教學大樓後面的宏裕科技大樓 15 樓，要找老師之前記得要寫信跟老師約個時間</p>
+                                <div class="row">
+                                    <div class="col-md-6"><img src="./image/1523wkc.png" class="img-responsive" alt=""></div>
+                                    <div class="col-md-6"><img src="./image/1521cliu.png" class="img-responsive" alt=""></div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading_5">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
+                                    <span class="sp_big">那</span> 麼 ， 要 如 何 才 能 夠 畢 業 呢 ？
+                                </a>
+                            </h4>
+                            </div>
+                            <div id="collapse_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_5">
+                            <div class="panel-body">
+                                <p>* 碩士論文內容必須理論與實務並重</p>
+                                <p>* 至少撰寫一篇國內(外)研討會論文(通常為台灣軟體工程研討會)</p>
+                            </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- <form>

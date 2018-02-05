@@ -569,3 +569,131 @@ nav#footer p{
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
+}
+
+
+
+
+/* new */
+
+#tf-professor {
+	padding: 80px 0;
+}
+.papers {
+	position: relative;
+	width: 90%;
+	padding: 2em;
+	margin: 0px auto;
+	margin-top: 40px;
+	font-size: 16px;
+}
+.papers, .papers:before, .papers:after {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 0 30px rgba(0,0,0,0.1), 1px 1px 3px rgba(0,0,0,0.2);
+}
+.papers:before, .papers:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: rotateZ(2.5deg);
+	-o-transform: rotate(2.5deg);
+	transform: rotateZ(2.5deg);
+	z-index: -1;
+}
+:before, :after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.papers:after {
+	-webkit-transform: rotateZ(-2.5deg);
+	-o-transform: rotate(-2.5deg);
+	transform: rotateZ(-2.5deg);
+}
+.papers img{
+	max-width: 100%;
+}
+.papers h2{
+	margin: 30px 0;
+	font-size: 40px;
+}
+.papers h2 span{
+	font-size: 22px;
+}
+
+#tf-services .about-list{
+	text-align: left;
+	max-width: 300px;
+	margin: 12px auto 20px auto;
+}
+
+
+
+
+
+#tf-plans{
+	background: url(../img/05.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
+#tf-plans .overlay{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+	padding: 80px 0;
+	background-attachment: fixed;
+}
+#plan {
+	padding: 30px 0;
+}
+#plan .item{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#plan .item p {
+	font-weight: 400;
+	margin: 30px 0;
+	color: #d1d1d1;
+}
+
+#plan table{
+	text-align: left;
+}
+#plan .td_title{
+	max-width: 400px;
+	height: 50px;
+}
+
+
+#testimonial .td_title{
+	max-width: 580px;
+	/* height: 50px; */
+}
+
+
+
+/*== 新生專區 ==*/
+
+.sp_big{
+	font-size: 25px;
+    font-weight: bold;
+}
+
+#tf-contact .panel-body{
+	font-size: 16px;
+	text-align: left;
+}
