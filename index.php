@@ -57,7 +57,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Spirit8</a>
+          <a class="navbar-brand" href="index.html">SELab & SDTLab</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -128,36 +128,44 @@
     ==========================================-->
     <div id="tf-professor" class="text-center">
         <div class="container">
-            <div class="section-title center">
-                <h2><strong>指導</strong>教授</h2>
-                <div class="line">
-                    <hr>
-                </div>
-            </div>
+
             <div class="row">
-                <div class="col-md-6">
-                    <div class="papers text-center">
-                        <img src="image/mugshot/wkc-A.png" alt="">
-                        <h2>陳偉凱 <span>教授</span></h2>
-                        <p>美國北卡州大 電機電腦工程系<br>計算機工程碩士</p>
-                        <p>美國北卡州大 電機電腦工程系<br>計算機工程博士</p>
-                        <p>宏裕科技大樓 1523</p>
-                        <p>wkc@csie.ntut.edu.tw</p>
-                        <p><a href="http://www.cc.ntut.edu.tw/~wkchen" target="blank">http://www.cc.ntut.edu.tw/~wkchen</a></p>
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="section-title center">
+                        <h2><strong>指導</strong>教授</h2>
+                        <div class="line">
+                            <hr>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="papers text-center">
-                        <img src="./image/mugshot/cliu-A.png" alt="">
-                        <h2>劉建宏<span>教授</span></h2>
-                        <p>美國南加州大學<br>電機工程碩士</p>
-                        <p>美國德州大學 阿靈頓分校<br>計算機科學與工程博士</p>
-                        <p>宏裕科技大樓 1521</p>
-                        <p>cliu@ntut.edu.tw</p>
-                        <p><a href="http://www.cc.ntut.edu.tw/~cliu" target="blank">http://www.cc.ntut.edu.tw/~cliu</a></p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="papers text-center">
+                                <img src="image/mugshot/wkc-A.png" alt="">
+                                <h2>陳偉凱 <span>教授</span></h2>
+                                <p>美國北卡州大 電機電腦工程系<br>計算機工程碩士</p>
+                                <p>美國北卡州大 電機電腦工程系<br>計算機工程博士</p>
+                                <p>宏裕科技大樓 1523</p>
+                                <p>wkc@csie.ntut.edu.tw</p>
+                                <p><a href="http://www.cc.ntut.edu.tw/~wkchen" target="blank">http://www.cc.ntut.edu.tw/~wkchen</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="papers text-center">
+                                <img src="./image/mugshot/cliu-A.png" alt="">
+                                <h2>劉建宏<span>教授</span></h2>
+                                <p>美國南加州大學<br>電機工程碩士</p>
+                                <p>美國德州大學 阿靈頓分校<br>計算機科學與工程博士</p>
+                                <p>宏裕科技大樓 1521</p>
+                                <p>cliu@ntut.edu.tw</p>
+                                <p><a href="http://www.cc.ntut.edu.tw/~cliu" target="blank">http://www.cc.ntut.edu.tw/~cliu</a></p>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
+
         </div>
     </div>
 
