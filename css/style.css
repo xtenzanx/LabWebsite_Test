@@ -165,11 +165,13 @@ a.fa.fa-angle-down:hover{
 }
 /* About Section */
 #tf-about{
+	background-color: rgb(79, 148, 205);
+	color: #222;
 	padding: 80px 0;
 }
 ul.about-list{ margin: 30px 0 0 ;}
 ul.about-list li{
-	display: block;
+	/* display: block; */
 	font-size: 16px;
 	line-height: 30px;
 	font-family: 'Open Sans', sans-serif;
@@ -180,7 +182,7 @@ ul.about-list li span{
 
 /* Team Section */
 #tf-team{
-	background: url(../img/03.jpg);
+	background: url(../image/background/pexels-photo-583.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -232,10 +234,11 @@ ul.about-list li span{
 }
 
 img.img-circle.team-img {
-	width: 120px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
 	border: 4px solid transparent;
 	transition: all 0.5s;
+	object-fit: cover;
 }
 #tf-team .item .thumbnail:hover>img.img-circle.team-img{
 	border: 4px solid #FCAC45;
@@ -578,7 +581,14 @@ nav#footer p{
 
 #tf-professor {
 	padding: 80px 0;
+	/* background: url(../image/background/pexels-photo-546.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    /* color: #ffffff; */
 }
+
 .papers {
 	position: relative;
 	width: 90%;
@@ -615,7 +625,7 @@ nav#footer p{
 	transform: rotateZ(-2.5deg);
 }
 .papers img{
-	max-width: 100%;
+	max-width: 90%;
 }
 .papers h2{
 	margin: 30px 0;
@@ -627,7 +637,7 @@ nav#footer p{
 
 #tf-services .about-list{
 	text-align: left;
-	max-width: 300px;
+	max-width: 260px;
 	margin: 12px auto 20px auto;
 }
 
@@ -636,7 +646,7 @@ nav#footer p{
 
 
 #tf-plans{
-	background: url(../img/05.jpg);
+	background: url(../image/background/pexels-photo-567.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -682,6 +692,28 @@ nav#footer p{
 #testimonial .td_title{
 	max-width: 580px;
 	/* height: 50px; */
+}
+
+
+
+
+/*== 插圖分隔 ==*/
+
+#tf-divided {
+	padding: 50px 0 0 0;
+}
+.div_img{
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+
+/*== 實驗室設備 ==*/
+
+#lightbox .img-responsive{
+	object-fit: cover;
+    height: 260px;
+    width: 100%;
 }
 
 

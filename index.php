@@ -87,43 +87,6 @@
         </div>
     </div>
 
-    <!-- About Us Page
-    ==========================================-->
-    <div id="tf-about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="image/welcome.png" class="img-responsive">
-                </div>
-                <div class="col-md-6">
-                    <div class="about-text">
-                        <div class="section-title">
-                            <h4>About us</h4>
-                            <h2>關於<strong>軟體工程</strong></h2>
-                            <hr>
-                            <div class="clearfix"></div>
-                        </div>
-                        <p class="intro">它涉及到程式設計語言、資料庫、軟體開發工具、系統平台、標準、設計模式等方面。其後的幾十年裡，各種有關軟體工程的技術、思想、方法和概念不斷被提出，軟體工程逐步發展為一門獨立的科學。</p>
-                        <ul class="about-list">
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>軟體工程</strong> - <em>Software Engineering</em>
-                            </li>
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>軟體開發</strong> - <em>Software Development</em>
-                            </li>
-                            <li>
-                                <span class="fa fa-dot-circle-o"></span>
-                                <strong>軟體測試</strong> - <em>Software Testing</em>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- 指導教授
     ==========================================-->
     <div id="tf-professor" class="text-center">
@@ -169,6 +132,43 @@
         </div>
     </div>
 
+    <!-- About Us Page
+    ==========================================-->
+    <div id="tf-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/welcome.png" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <h4>About us</h4>
+                            <h2>關於<strong>軟體工程</strong></h2>
+                            <hr>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="intro">它涉及到程式設計語言、資料庫、軟體開發工具、系統平台、標準、設計模式等方面。其後的幾十年裡，各種有關軟體工程的技術、思想、方法和概念不斷被提出，軟體工程逐步發展為一門獨立的科學。</p>
+                        <ul class="about-list">
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>軟體工程</strong> - <em>Software Engineering</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>軟體開發</strong> - <em>Software Development</em>
+                            </li>
+                            <li>
+                                <span class="fa fa-dot-circle-o"></span>
+                                <strong>軟體測試</strong> - <em>Software Testing</em>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- 研究重點
     ==========================================-->
     <div id="tf-services" class="text-center">
@@ -188,23 +188,18 @@
                     <h4><strong>Software Engineering</strong></h4>
                     <ul class="about-list">
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Object-Oriented Analysis and Design</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Design Patterns</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Agile Process</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Visual Language</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Personal Process Improvement</em>
                         </li>
                     </ul>
@@ -215,27 +210,21 @@
                     <h4><strong>Software Testing</strong></h4>
                     <ul class="about-list">
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Android App Testing</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Cloud Testing Service</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Web & Web Service Testing</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>GUI Testing</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Game Testing</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Embedded Testing</em>
                         </li>
                     </ul>
@@ -246,23 +235,18 @@
                     <h4><strong>Software Development</strong></h4>
                     <ul class="about-list">
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>App Development</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>HTML5 Application Development</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Computer Games</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>E-learning</em>
                         </li>
                         <li>
-                            <span class="fa fa-dot-circle-o"></span>
                             <em>Wearable Device App</em>
                         </li>
                     </ul>
@@ -323,13 +307,28 @@
         </div>
     </div>
 
+    <!-- 插圖分隔
+    ==========================================-->
+    <div id="tf-divided">
+        <div class="container">
+            <div class="div_img">
+                <img src="./image/newStudent.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <!-- <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <img src="./image/newStudent.png" class="img-responsive" alt="Responsive image">
+                </div>
+            </div> -->
+        </div>
+    </div>
+
     <!-- 實驗室成員
     ==========================================-->
     <div id="tf-team" class="text-center">
         <div class="overlay">
             <div class="container">
                 <div class="section-title center">
-                    <h2>實驗室<strong>成員</strong></h2>
+                    <h2><strong>實驗室</strong>成員</h2>
                     <div class="line">
                         <hr>
                     </div>
@@ -375,7 +374,7 @@
     <div id="tf-works">
         <div class="container"> <!-- Container -->
             <div class="section-title text-center center">
-                <h2>實驗室<strong>設備</strong></h2>
+                <h2><strong>實驗室</strong>設備</h2>
                 <div class="line">
                     <hr>
                 </div>
