@@ -186,7 +186,7 @@
             <!-- <div class="space"></div> -->
             <div class="row">
                 <div class="col-md-4 col-sm-12 service">
-                    <i class="fa fa-desktop"></i>
+                    <i class="fa fa-code"></i>
                     <h4><strong>Software Engineering</strong></h4>
                     <ul class="about-list">
                         <li>
@@ -236,7 +236,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 service">
-                    <i class="fa fa-bullhorn"></i>
+                    <i class="fa fa-desktop"></i>
                     <h4><strong>Software Development</strong></h4>
                     <ul class="about-list">
                         <li>
