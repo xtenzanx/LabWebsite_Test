@@ -1,4 +1,296 @@
 [{
+    "date": "2018-01-30",
+    "name": "陳炳宏",
+    "topic": "JavaScript Is Not the Language You Think It Is"
+},{
+    "date": "2018-01-30",
+    "name": "張偉哲",
+    "topic": "Seamless Test Environment for Distributed Embedded Wireless Networks"
+},{
+    "date": "2018-01-23",
+    "name": "郭建陞",
+    "topic": "Image-to-Image Translation with Conditional Adversarial Networks"
+},{
+    "date": "2018-01-23",
+    "name": "陳柏峻",
+    "topic": "How Do Developers Select and Prioritize Code Smells? A Preliminary Study"
+},{
+    "date": "2018-01-16",
+    "name": "李修豪",
+    "topic": "Facial Emotion Detection Using Convolutional Neural Networks and Representational Autoencoder Units"
+},{
+    "date": "2018-01-16",
+    "name": "陳肇陽",
+    "topic": "AIMDROID: Activity-Insulated Multi-level Automated Testing for Android Applications"
+},{
+    "date": "2018-01-09",
+    "name": "何威航",
+    "topic": "Automatic Text Input Generation for Mobile Testing"
+},{
+    "date": "2018-01-09",
+    "name": "劉人傑",
+    "topic": "Learning from Simulated and Unsupervised Images through Adversarial Training"
+},{
+    "date": "2017-12-26",
+    "name": "林亮勳",
+    "topic": "Analysis and Testing of Notifications in Android Wear Applications"
+},{
+    "date": "2017-12-26",
+    "name": "蔡名億",
+    "topic": "A Test-driven Approach for Life Cycle Management of Internet of Things enabled Services"
+},{
+    "date": "2017-12-19",
+    "name": "林采嬑",
+    "topic": "Automatic and Scalable Fault Detection for Mobile Applications"
+},{
+    "date": "2017-12-19",
+    "name": "洪紹晏",
+    "topic": "Detecting Faults in Technical Indicator Computationsfor Financial Market Analysis"
+},{
+    "date": "2017-12-12",
+    "name": "陳日揚",
+    "topic": "JavaScript: The (Un)covered Parts"
+},{
+    "date": "2017-12-12",
+    "name": "劉至峻",
+    "topic": "Mastering the game of Go without human knowledge"
+},{
+    "date": "2017-12-05",
+    "name": "林照晟",
+    "topic": "WebGuardia – An Integrated Penetration Testing System to Detect Web Application Vulnerabilities"
+},{
+    "date": "2017-12-05",
+    "name": "蔡博凱",
+    "topic": "Android Permission Re-Delegation Detection and Test Case Generation"
+},{
+    "date": "2017-11-28",
+    "name": "林政憲",
+    "topic": "Using Semantic Similarity in Crawling-based Web Application Testing"
+},{
+    "date": "2017-11-28",
+    "name": "劉宸宗",
+    "topic": "JDeodorant: Identification and Removal of Type-Checking Bad Smells"
+},{
+    "date": "2017-11-21",
+    "name": "陳炳宏",
+    "topic": "Using Image Recognition for Testing Hand-drawn Graphic User Interfaces"
+},{
+    "date": "2017-11-21",
+    "name": "張偉哲",
+    "topic": "IoT : Source of Test Challenges & The Challenges of Testing in a Non-Deterministic World."
+},{
+    "date": "2017-11-14",
+    "name": "劉至峻",
+    "topic": "GTC TAIWAN 2017"
+},{
+    "date": "2017-11-14",
+    "name": "陳柏峻",
+    "topic": "Systematic Exhortation of Code Smell Detection Using JSmell for Java Source Code"
+},{
+    "date": "2017-10-31",
+    "name": "林采嬑",
+    "topic": "Xdroid: Testing Android Apps With Dependency Injection"
+},{
+    "date": "2017-10-31",
+    "name": "陳肇陽",
+    "topic": "Automated Test Input Generation for Android : Are We Really There Yet in an Industrial Case?"
+},{
+    "date": "2017-10-24",
+    "name": "蔡博凱",
+    "topic": "CovDroid: A Black-Box Testing Coverage System for Android"
+},{
+    "date": "2017-10-24",
+    "name": "劉人傑",
+    "topic": "Deep Learning for Siri’s Voice: On-device Deep Mixture Density Networks for Hybrid Unit Selection Synthesis"
+},{
+    "date": "2017-10-17",
+    "name": "林政憲",
+    "topic": "雲端測試平台之 Android 應用程式崩潰測試工具 An Android App Crash Testing Tool for Cloud Testing Platform"
+},{
+    "date": "2017-10-17",
+    "name": "蔡名億",
+    "topic": "偵測重複 KDTKDT 測試腳本之方法 An Approach for Detecting Duplicated KDT Scripts"
+},{
+    "date": "2017-09-26",
+    "name": "林政憲",
+    "topic": "Searching for Behavioural Bugs with Stateful Test Oracles in Web Crawlers"
+},{
+    "date": "2017-09-26",
+    "name": "陳炳宏",
+    "topic": "Research of Test Platform on Computer Games with Distributed System"
+},{
+    "date": "2017-09-18",
+    "name": "陳柏峻",
+    "topic": "Automated Detection Of Code Smells Caused By Null Checking Conditions In Java Programs"
+},{
+    "date": "2017-09-18",
+    "name": "張偉哲",
+    "topic": "How to Test IoT-based Services before Deploying them into Real World"
+},{
+    "date": "2017-08-29",
+    "name": "劉至峻",
+    "topic": "A COMPARISON OF DEEP LEARNING METHODS FOR ENVIRONMENTAL SOUND DETECTION"
+},{
+    "date": "2017-08-29",
+    "name": "劉人傑",
+    "topic": "Deep ranking- Triplet MatchNet for music metric learning"
+},{
+    "date": "2017-08-22",
+    "name": "蔡名億",
+    "topic": "Data Exfiltration From Internet of Things Devices:iOS Devices as Case Studies"
+},{
+    "date": "2017-08-15",
+    "name": "林采嬑",
+    "topic": "Sapienz: Multi-objective Automated Testing for Android Applications"
+},{
+    "date": "2017-08-08",
+    "name": "陳肇陽",
+    "topic": "Automated Test Input Generation for Android : Are We There Yet?"
+},{
+    "date": "2017-08-08",
+    "name": "蔡博凱",
+    "topic": "DroidBot: A Lightweight UI-Guided Test InputGenerator for Android"
+},{
+    "date": "2017-08-01",
+    "name": "林政憲",
+    "topic": "High-Coverage Testing of Navigation Models in Android Applications"
+},{
+    "date": "2017-07-04",
+    "name": "陳柏峻",
+    "topic": "支援程式作業壞味道偵測與批改之工具"
+},{
+    "date": "2017-07-04",
+    "name": "張偉哲",
+    "topic": "Coupling Analysis and Visualization of KDT Scripts"
+},{
+    "date": "2017-07-04",
+    "name": "劉至峻",
+    "topic": "以漸增式使用者指引增加爬蟲器之網頁覆蓋率"
+},{
+    "date": "2017-06-29",
+    "name": "秦永昭",
+    "topic": "雲端測試平台之測試覆蓋率工具設計與實作 The design and implementation of a test coverage tool for cloud testing platform"
+},{
+    "date": "2017-06-29",
+    "name": "陳又樫",
+    "topic": "雲端測試平台之Android 應用程式崩潰測試工具 An Android App Crash Testing Tool for Cloud Testing Platform"
+},{
+    "date": "2017-06-28",
+    "name": "李宗哲",
+    "topic": "Detecting Android Application Anomalies Based on Test Case Generation from a Crawler."
+},{
+    "date": "2017-06-22",
+    "name": "孫季加",
+    "topic": "An Incremental and Interactive Web Crawler Supporting Code Coverage Measurement"
+},{
+    "date": "2017-06-22",
+    "name": "黃靖文",
+    "topic": "An Incremental and Interactive Android App Crawler"
+},{
+    "date": "2017-06-15",
+    "name": "廖振諺",
+    "topic": "An Approach for Detecting Duplicated KDT Scripts"
+},{
+    "date": "2017-06-15",
+    "name": "何書杭",
+    "topic": "A Framework Supporting the Comparison of Android Crawling Algorithms"
+},{
+    "date": "2017-06-08",
+    "name": "李柏鋐",
+    "topic": "A Feature Envy Detection Approach Based on Data Flow Analysis"
+},{
+    "date": "2017-06-08",
+    "name": "黃泓鳴",
+    "topic": "Singing Voice Detection Based on Deep Learning Algorithm"
+},{
+    "date": "2017-05-25",
+    "name": "劉至峻",
+    "topic": "A Strategy for Efficient Crawling of Rich Internet Applications"
+},{
+    "date": "2017-05-11",
+    "name": "陳肇陽",
+    "topic": "Generating Test Cases to Expose Concurrency Bugs in Android Applications"
+},{
+    "date": "2017-05-11",
+    "name": "劉人傑",
+    "topic": "Class Coverage GUI Testing for Android Applications"
+},{
+    "date": "2017-05-04",
+    "name": "孫季加",
+    "topic": "APOGEN: Automatic Page Object Generator for Web Testing"
+},{
+    "date": "2017-04-27",
+    "name": "林采嬑",
+    "topic": "Testing Android Apps via Guided Gesture Event Generation"
+},{
+    "date": "2017-04-13",
+    "name": "黃靖文",
+    "topic": "Guided GUI Testing of Android Apps with Minimal Restart and Approximate Learning"
+},{
+    "date": "2017-04-13",
+    "name": "陳柏峻",
+    "topic": "FSMdroid: Guided GUI Testing of Android Apps"
+},{
+    "date": "2017-03-30",
+    "name": "蔡名億",
+    "topic": "Software Capability Rating using System Testing"
+},{
+    "date": "2017-03-30",
+    "name": "陳又樫",
+    "topic": "Automatically Discovering, Reporting and Reproducing Android Application Crashes"
+},{
+    "date": "2017-03-23",
+    "name": "秦永昭",
+    "topic": "ARTIST The Android Runtime Instrumentation Toolkit"
+},{
+    "date": "2017-03-16",
+    "name": "蔡博凱",
+    "topic": "GramFuzz: Fuzzing Testing of Web Browsers Based on Grammar Analysis and Structural Mutation"
+},{
+    "date": "2017-03-09",
+    "name": "林政憲",
+    "topic": "Retrofitting Automatic Testing Through Library Tests Reusing"
+},{
+    "date": "2017-03-09",
+    "name": "李宗哲",
+    "topic": "Automated GUI Testing for Android Application"
+},{
+    "date": "2017-03-02",
+    "name": "黃泓鳴",
+    "topic": "Software Debugging Patterns for Novice Programmers"
+},{
+    "date": "2017-02-16",
+    "name": "廖振諺",
+    "topic": "Bad Smells and Refactoring Methods for GUI Test Scripts"
+},{
+    "date": "2017-02-16",
+    "name": "張偉哲",
+    "topic": "Reducing Web Test Cases Aging by means of Robust XPath Locators"
+},{
+    "date": "2017-02-09",
+    "name": "李柏鋐",
+    "topic": "An approach to prioritize code smells for refactoring"
+},{
+    "date": "2017-02-09",
+    "name": "黃映瑞",
+    "topic": "Action-Conditional Video Prediction using Deep Networks in Atari Games"
+},{
+    "date": "2017-01-05",
+    "name": "孫季加",
+    "topic": "jÄk: Using Dynamic Analysis to Crawl and Test Modern Web Application"
+},{
+    "date": "2016-12-22",
+    "name": "黃靖文",
+    "topic": "Using Model Checking to Generate Test Cases for Android"
+},{
+    "date": "2016-12-15",
+    "name": "陳又樫",
+    "topic": "A Recursive Crawler Algorithm to Detect Crash in Android Application"
+},{
+    "date": "2016-12-08",
+    "name": "秦永昭",
+    "topic": "Testing for poor responsiveness in android applications"
+},{
     "date": "2016-03-02",
     "name": "黃泓鳴",
     "topic": "Software Debugging Patterns for Novice Programmers"

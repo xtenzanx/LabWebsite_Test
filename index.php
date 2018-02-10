@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Spirit8 - Digital Agency One Page Template</title>
+    <title>SELab & SDTLab</title>
     <meta name="description" content="Spirit8 is a Digital agency one page template built based on bootstrap framework. This template is design by Robert Berki and coded by Jenn Pereira. It is simple, mobile responsive, perfect for portfolio and agency websites. Get this for free exclusively at ThemeForces.com">
     <meta name="keywords" content="bootstrap theme, portfolio template, digital agency, onepage, mobile responsive, spirit8, free website, free theme, themeforces themes, themeforces wordpress themes, themeforces bootstrap theme">
     <meta name="author" content="ThemeForces.com">
@@ -64,12 +64,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#tf-home" class="page-scroll">Home</a></li>
+            <li><a href="#tf-professor" class="page-scroll">指導教授</a></li>
             <li><a href="#tf-about" class="page-scroll">About</a></li>
-            <li><a href="#tf-team" class="page-scroll">Team</a></li>
-            <li><a href="#tf-services" class="page-scroll">Services</a></li>
-            <li><a href="#tf-works" class="page-scroll">Portfolio</a></li>
-            <li><a href="#tf-testimonials" class="page-scroll">Testimonials</a></li>
-            <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
+            <li><a href="#tf-services" class="page-scroll">研究重點</a></li>
+            <li><a href="#tf-plans" class="page-scroll">研究計畫</a></li>
+            <li><a href="#tf-team" class="page-scroll">實驗室成員</a></li>
+            <li><a href="#tf-works" class="page-scroll">實驗室設備</a></li>
+            <li><a href="#tf-testimonials" class="page-scroll">Group Meeting</a></li>
+            <li><a href="#tf-contact" class="page-scroll">新生專區</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -82,7 +84,7 @@
             <div class="content">
                 <h1><strong><span class="color">軟體工程實驗室</span></strong> && <strong><span class="color">軟體開發與測試實驗室</span></strong></h1>
                 <p class="lead"><strong>SELab</strong> & <strong>SDTLab</strong></p>
-                <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+                <a href="#tf-professor" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>
     </div>
@@ -138,7 +140,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="image/welcome.png" class="img-responsive">
+                    <img src="image/welcome_s.png" class="img-responsive">
                 </div>
                 <div class="col-md-6">
                     <div class="about-text">
@@ -149,7 +151,7 @@
                             <div class="clearfix"></div>
                         </div>
                         <p class="intro">它涉及到程式設計語言、資料庫、軟體開發工具、系統平台、標準、設計模式等方面。其後的幾十年裡，各種有關軟體工程的技術、思想、方法和概念不斷被提出，軟體工程逐步發展為一門獨立的科學。</p>
-                        <ul class="about-list">
+                        <!-- <ul class="about-list">
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
                                 <strong>軟體工程</strong> - <em>Software Engineering</em>
@@ -162,7 +164,7 @@
                                 <span class="fa fa-dot-circle-o"></span>
                                 <strong>軟體測試</strong> - <em>Software Testing</em>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -201,6 +203,9 @@
                         </li>
                         <li>
                             <em>Personal Process Improvement</em>
+                        </li>
+                        <li>
+                            <em>Deep Learning</em>
                         </li>
                     </ul>
                 </div>
@@ -347,7 +352,7 @@
                     foreach ($content as $key => $value) {
                         $photo = $value->photo . '-A.png';
                         if($value->photo == 'none'){
-                            $photo = 'none.png';
+                            $photo = 'none_w.png';
                         }
                         echo "
                         <div class=\"item\">
@@ -356,7 +361,7 @@
                                 <div class=\"caption\">
                                     <h3>$value->name</h3>
                                     <p>$value->year 級</p>
-                                    <p>論文題目</p>
+                                    <p>$value->paper</p>
                                 </div>
                             </div>
                         </div>
@@ -507,7 +512,7 @@
                             <div class="panel-heading" role="tab" id="heading_1">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
-                                    <span class="sp_big">如</span> 果 我 想 進 來 這 間 實 驗 室 ， 要 有 什 麼 條 件 呢 ？
+                                    <span class="sp_big">如 </span>果 我 想 進 來 這 間 實 驗 室 ， 要 有 什 麼 條 件 呢 ？
                                 </a>
                             </h4>
                             </div>
@@ -521,7 +526,7 @@
                             <div class="panel-heading" role="tab" id="heading_2">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
-                                    <span class="sp_big">實</span> 驗 室 成 員 的 日 常 生 活 在 做 什 麼 呢 ？
+                                    <span class="sp_big">實 </span>驗 室 成 員 的 日 常 生 活 在 做 什 麼 呢 ？
                                 </a>
                             </h4>
                             </div>
@@ -537,7 +542,7 @@
                             <div class="panel-heading" role="tab" id="heading_3">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_3" aria-expanded="false" aria-controls="collapse_3">
-                                    <span class="sp_big">來</span> 實 驗 室 看 看 學 長 姊 吧 ！
+                                    <span class="sp_big">來 </span>實 驗 室 看 看 學 長 姊 吧 ！
                                 </a>
                             </h4>
                             </div>
@@ -555,7 +560,7 @@
                             <div class="panel-heading" role="tab" id="heading_4">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_4" aria-expanded="false" aria-controls="collapse_4">
-                                    <span class="sp_big">想</span> 跟 老 師 們 聊 聊 嗎 ？
+                                    <span class="sp_big">想 </span>跟 老 師 們 聊 聊 嗎 ？
                                 </a>
                             </h4>
                             </div>
@@ -573,11 +578,32 @@
                             <div class="panel-heading" role="tab" id="heading_5">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
-                                    <span class="sp_big">那</span> 麼 ， 要 如 何 才 能 夠 畢 業 呢 ？
+                                    <span class="sp_big">面 </span>談 前 可 以 做 哪 些 準 備 呢 ？
                                 </a>
                             </h4>
                             </div>
                             <div id="collapse_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_5">
+                            <div class="panel-body">
+                                <p>你可以先看這份面談時會放的<a href="file/研究所新生面談.pdf" target="_blank">PPT</a>想想可回答和想提問的問題，以及觀看下列的Demo影片來了解現在學長姐在做的研究！</p>
+                                <ol>
+                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="1 Crawler demo.mp4">Crawler demo</button></li>
+                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="2 CTP Tutorial_ Analyzing Problems Using Recorded Video - YouTube [720p].mp4">CTP Tutorial Analyzing Problems Using Recorded Video</button></li>
+                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="3 GUIDE demo.mp4">GUIDE demo</button></li>
+                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="4 DrSmell demo.mp4">DrSmell demo</button></li>
+                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="5 Deep Learning demo.mp4">Deep Learning demo</button></li>
+                                </ol>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading_6">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_6" aria-expanded="false" aria-controls="collapse_6">
+                                    <span class="sp_big">那 </span>麼 ， 要 如 何 才 能 夠 畢 業 呢 ？
+                                </a>
+                            </h4>
+                            </div>
+                            <div id="collapse_6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_6">
                             <div class="panel-body">
                                 <p>* 碩士論文內容必須理論與實務並重</p>
                                 <p>* 至少撰寫一篇國內(外)研討會論文(通常為台灣軟體工程研討會)</p>
@@ -585,29 +611,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- <form>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Message</label>
-                            <textarea class="form-control" rows="3"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn tf-btn btn-default">Submit</button>
-                    </form> -->
 
                 </div>
             </div>
@@ -617,7 +620,7 @@
 
     <nav id="footer">
         <div class="container">
-            <div class="pull-left fnav">
+            <!-- <div class="pull-left fnav">
                 <p>ALL RIGHTS RESERVED. COPYRIGHT © 2014. Designed by <a href="https://dribbble.com/shots/1817781--FREEBIE-Spirit8-Digital-agency-one-page-template">Robert Berki</a> and Coded by <a href="https://dribbble.com/jennpereira">Jenn Pereira</a></p>
             </div>
             <div class="pull-right fnav">
@@ -627,9 +630,22 @@
                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </nav>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video class="embed-responsive-item" src="video/1 Crawler demo.mp4" controls="controls"></video>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -645,6 +661,15 @@
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+    $('.bs-example-modal-lg').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var recipient = button.data('whatever');
+        var modal = $(this);
+        modal.find('.embed-responsive-item').attr("src",'video/' + recipient);
+    });
+    </script>
 
   </body>
 </html>

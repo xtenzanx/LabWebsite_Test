@@ -1,4 +1,34 @@
 [{
+    "year": "106-107",
+    "unit": "聯齊科技股份有限公司",
+    "project_name": "物聯網測試技術研究與開發",
+    "comments": "共同主持人"
+}, {
+    "year": "105",
+    "unit": "資策會",
+    "project_name": "多裝置管理控制技術",
+    "comments": "主持人"
+}, {
+    "year": "105-106",
+    "unit": "科技部",
+    "project_name": "圖形使用者介面測試腳本壞味道自動偵測之研究(II)",
+    "comments": "主持人"
+}, {
+    "year": "104",
+    "unit": "台灣電子檢驗中心",
+    "project_name": "Android應用程式伺服器壓力測試",
+    "comments": "主持人"
+}, {
+    "year": "104-105",
+    "unit": "科技部",
+    "project_name": "圖形使用者介面測試腳本壞味道自動偵測之研究",
+    "comments": "主持人"
+}, {
+    "year": "104",
+    "unit": "優三第科技",
+    "project_name": "雲端伺服器效能測試",
+    "comments": "共同主持人"
+}, {
     "year": "103-104",
     "unit": "國科會",
     "project_name": "整合式雲端測試：平台與服務之開發－總計畫暨子計畫一：Android App伺服器效能測試服務之開發 (III)",
