@@ -586,11 +586,11 @@
                             <div class="panel-body">
                                 <p>你可以先看這份面談時會放的<a href="file/研究所新生面談.pdf" target="_blank">PPT</a>想想可回答和想提問的問題，以及觀看下列的Demo影片來了解現在學長姐在做的研究！</p>
                                 <ol>
-                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="1 Crawler demo.mp4">Crawler demo</button></li>
-                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="2 CTP Tutorial_ Analyzing Problems Using Recorded Video - YouTube [720p].mp4">CTP Tutorial Analyzing Problems Using Recorded Video</button></li>
-                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="3 GUIDE demo.mp4">GUIDE demo</button></li>
-                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="4 DrSmell demo.mp4">DrSmell demo</button></li>
-                                    <li><button type="button" class="btn btn-link" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="5 Deep Learning demo.mp4">Deep Learning demo</button></li>
+                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="1 Crawler demo.mp4">Crawler demo</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="2 CTP Tutorial_ Analyzing Problems Using Recorded Video - YouTube [720p].mp4">CTP Tutorial Analyzing Problems Using Recorded Video</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="3 GUIDE demo.mp4">GUIDE demo</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="4 DrSmell demo.mp4">DrSmell demo</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="5 Deep Learning demo.mp4">Deep Learning demo</a></li>
                                 </ol>
                             </div>
                             </div>
