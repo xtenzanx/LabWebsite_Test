@@ -57,7 +57,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">SELab & SDTLab</a>
+          <a class="navbar-brand" href="index.php">SELab & SDTLab</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -106,17 +106,6 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="papers text-center">
-                                <img src="image/mugshot/wkc-A.png" alt="">
-                                <h2>陳偉凱 <span>教授</span></h2>
-                                <p>美國北卡州大 電機電腦工程系<br>計算機工程碩士</p>
-                                <p>美國北卡州大 電機電腦工程系<br>計算機工程博士</p>
-                                <p>宏裕科技大樓 1523</p>
-                                <p>wkc@csie.ntut.edu.tw</p>
-                                <p><a href="http://www.cc.ntut.edu.tw/~wkchen" target="blank">http://www.cc.ntut.edu.tw/~wkchen</a></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="papers text-center">
                                 <img src="./image/mugshot/cliu-A.png" alt="">
                                 <h2>劉建宏<span>教授</span></h2>
                                 <p>美國南加州大學<br>電機工程碩士</p>
@@ -124,6 +113,17 @@
                                 <p>宏裕科技大樓 1521</p>
                                 <p>cliu@ntut.edu.tw</p>
                                 <p><a href="http://www.cc.ntut.edu.tw/~cliu" target="blank">http://www.cc.ntut.edu.tw/~cliu</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="papers text-center">
+                                <img src="image/mugshot/wkc-A.png" alt="">
+                                <h2>陳偉凱 <span>教授</span></h2>
+                                <p>美國北卡州大 電機電腦工程系<br>計算機工程碩士</p>
+                                <p>美國北卡州大 電機電腦工程系<br>計算機工程博士</p>
+                                <p>宏裕科技大樓 1523</p>
+                                <p>wkc@csie.ntut.edu.tw</p>
+                                <p><a href="http://www.cc.ntut.edu.tw/~wkchen" target="blank">http://www.cc.ntut.edu.tw/~wkchen</a></p>
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                             <em>Personal Process Improvement</em>
                         </li>
                         <li>
-                            <em>Deep Learning</em>
+                            <em>Deep Learning For Software Engineering Applications</em>
                         </li>
                     </ul>
                 </div>
@@ -518,7 +518,7 @@
                             </div>
                             <div id="collapse_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_1">
                             <div class="panel-body">
-                                <p>只要你能夠完成<strong>POSD</strong>課程的<a target="blank" href="http://www.cc.ntut.edu.tw/~wkchen/courses/gposd/gposd103_1/index.htm">第一次作業</a>就有資格成為我們實驗室的一員囉！</p>
+                                <p>只要你能夠完成<strong>POSD</strong>課程的第一次作業就有機會成為我們實驗室的一員囉！</p>
                             </div>
                             </div>
                         </div>
@@ -532,9 +532,9 @@
                             </div>
                             <div id="collapse_2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_2">
                             <div class="panel-body">
-                                <p>一年級的同學，就專心在修課上面，如果想參與實驗室的計畫也是 OK 的！</p>
-                                <p>二年級時就要專心準備論文，這時就要每週跟老師討論進度，慢慢完成自己的研究</p>
-                                <p>而每位同學每週都要參加 Group Meeting，一週大概 1 - 2 人，輪流報告一篇自己選定的 Paper 向大家分享</p>
+                                <p>一上的同學，就專心在修課上面，如果想參與實驗室的計畫也是 OK 的！一下修OOAD時，課程專案可以開始接觸實驗室學長姊所開發的系統。</p>
+                                <p>二年級時就要專心準備論文，這時就要每週跟老師討論進度，慢慢完成自己的研究。</p>
+                                <p>而每位同學每週都要參加 Group Meeting，一週大概 1 - 2 人，輪流報告一篇自己選定的 Paper 向大家分享。</p>
                             </div>
                             </div>
                         </div>
@@ -566,10 +566,10 @@
                             </div>
                             <div id="collapse_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_4">
                             <div class="panel-body">
-                                <p>來到第六教學大樓後面的宏裕科技大樓 15 樓，要找老師之前記得要寫信跟老師約個時間</p>
+                                <p>請使用Email聯繫劉建宏老師(＠)或陳偉凱老師(@)，洽詢面談的時間。地點在第六教學大樓後面的宏裕科技大樓 15 樓。</p>
                                 <div class="row">
-                                    <div class="col-md-6"><img src="./image/1523wkc.png" class="img-responsive" alt=""></div>
                                     <div class="col-md-6"><img src="./image/1521cliu.png" class="img-responsive" alt=""></div>
+                                    <div class="col-md-6"><img src="./image/1523wkc.png" class="img-responsive" alt=""></div>
                                 </div>
                             </div>
                             </div>
@@ -605,8 +605,7 @@
                             </div>
                             <div id="collapse_6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_6">
                             <div class="panel-body">
-                                <p>* 碩士論文內容必須理論與實務並重</p>
-                                <p>* 至少撰寫一篇國內(外)研討會論文(通常為台灣軟體工程研討會)</p>
+                                <p>碩士論文內容必須理論與實務並重，且至少撰寫一篇國內(外)研討會論文(通常為台灣軟體工程研討會)</p>
                             </div>
                             </div>
                         </div>
