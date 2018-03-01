@@ -32,13 +32,13 @@ h5{
 	line-height: 20px;
 }
 p{
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 }
 p.intro{
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 }
 a{ color: #FCAC45;}
 a:hover,
@@ -588,6 +588,11 @@ nav#footer p{
 
 /* new */
 
+body{
+	font-family: 微軟正黑體, Arial, Helvetica, sans-serif;
+}
+
+
 /*== 指導教授 ==*/
 
 #tf-professor {
@@ -703,7 +708,7 @@ nav#footer p{
 	text-align: left;
 }
 #plan .td_title{
-	max-width: 400px;
+	max-width: 360px;
 	height: 50px;
 }
 

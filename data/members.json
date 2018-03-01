@@ -31,7 +31,7 @@
 },{
 	"year": 106,
     "name": "林亮勛",
-    "photo": "none",
+    "photo": "林亮勛/",
     "paper": "未定"
 },{
 	"year": 106,
@@ -87,52 +87,52 @@
 	"year": 104,
     "name": "秦永昭",
     "photo": "秦永昭/",
-    "paper": "未定"
+    "paper": "雲端測試平台之測試覆蓋率工具設計與實作"
 },{
 	"year": 104,
     "name": "陳又樫",
     "photo": "陳又樫/",
-    "paper": "未定"
+    "paper": "雲端測試平台之Android應用程式崩潰測試工具"
 },{
     "year": 104,
     "name": "廖振諺",
     "photo": "廖振諺/",
-    "paper": "未定"
+    "paper": "偵測重複KDT測試腳本之方法"
 },{
 	"year": 104,
     "name": "李宗哲",
     "photo": "李宗哲/",
-    "paper": "未定"
+    "paper": "以爬蟲器產生測試案例之Android程式異常行為偵測方法"
 },{
 	"year": 104,
     "name": "孫季加",
     "photo": "none",
-    "paper": "未定"
+    "paper": "一個支援程式碼覆蓋率量測之漸進與互動式網頁爬蟲器"
 },{
 	"year": 104,
     "name": "何書杭",
     "photo": "none",
-    "paper": "未定"
+    "paper": "一個支援Android爬蟲演算法比較之框架"
 },{
 	"year": 104,
     "name": "李柏鋐",
     "photo": "none",
-    "paper": "未定"
+    "paper": "以資料流分析為基礎之Feature Envy偵測方法"
 },{
 	"year": 104,
     "name": "黃泓鳴",
     "photo": "none",
-    "paper": "未定"
+    "paper": "基於深度學習之音樂片段人聲辨識"
 },{
 	"year": 104,
     "name": "黃靖文",
     "photo": "黃靖文/",
-    "paper": "未定"
+    "paper": "一個漸進與互動式之Android應用程式爬蟲器"
 },{
     "year": 103,
     "name": "Rahil Jumiyani",
     "photo": "Rahil/",
-    "paper": "未定"
+    "paper": "Android手機手錶購物應用程式之設計與實作"
 }, {
     "year": 103,
     "name": "陳科銘",
@@ -152,7 +152,7 @@
     "year": 103,
     "name": "歐陽騰",
     "photo": "歐陽騰/",
-    "paper": "未定"
+    "paper": "一個支援處理相等GUI狀態及非決定性事件之Android爬蟲器"
 }, {
     "year": 103,
     "name": "楊凱霖",
@@ -162,17 +162,17 @@
     "year": 103,
     "name": "林容榆",
     "photo": "林容榆/",
-    "paper": "未定"
+    "paper": "Android手機手錶互動應用程式之相容性測試研究"
 }, {
     "year": 103,
     "name": "周世邦",
     "photo": "周世邦/",
-    "paper": "未定"
+    "paper": "以主從架構擴充使用USB埠連接ADB之數量"
 }, {
     "year": 103,
     "name": "古健樺",
     "photo": "古健樺/",
-    "paper": "未定"
+    "paper": "KDT測試腳本之視覺化工具"
 }, {
     "year": 102,
     "name": "崔宏康",
@@ -187,7 +187,7 @@
     "year": 102,
     "name": "林承甫",
     "photo": "林承甫/",
-    "paper": "未定"
+    "paper": "JavaScript網頁應用程式資料流測試模型之研究"
 }, {
     "year": 102,
     "name": "舒一斌",
@@ -197,12 +197,12 @@
     "year": 102,
     "name": "陳祐翎",
     "photo": "陳祐翎/",
-    "paper": "未定"
+    "paper": "整合Android應用程式安全分析工具之平台"
 }, {
     "year": 102,
     "name": "黃睿哲",
     "photo": "黃睿哲/",
-    "paper": "未定"
+    "paper": "一個以狀態為基礎之 Android 應用程式爬蟲器"
 }, {
     "year": 101,
     "name": "許家豪",
@@ -212,17 +212,17 @@
     "year": 101,
     "name": "邱威霖",
     "photo": "邱威霖/",
-    "paper": "未定"
+    "paper": "利用Arduino機器手臂測試Android應用程式非靜止行為之研究"
 }, {
     "year": 101,
     "name": "陳季宣",
     "photo": "陳季宣/",
-    "paper": "未定"
+    "paper": "Android底層事件轉換為關鍵字驅動測試腳本之設計與實作"
 }, {
     "year": 101,
     "name": "陳皇各",
     "photo": "none",
-    "paper": "未定"
+    "paper": "Android關鍵字驅動測試函式庫與工具之設計與開發"
 }, {
     "year": 101,
     "name": "黃泰瑚",
@@ -242,7 +242,7 @@
     "year": 101,
     "name": "姚皓天",
     "photo": "姚皓天/",
-    "paper": "未定"
+    "paper": "適用於Android雲端測試平台 的負載平衡策略"
 }, {
     "year": 100,
     "name": "黃冠智",
@@ -252,5 +252,5 @@
     "year": 100,
     "name": "陳炳宏",
     "photo": "陳炳宏/",
-    "paper": "未定"
+    "paper": "一個資料庫與全球資訊網應用的表格呈現語言"
 }]
