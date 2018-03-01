@@ -111,7 +111,7 @@
                                 <p>美國南加州大學<br>電機工程碩士</p>
                                 <p>美國德州大學 阿靈頓分校<br>計算機科學與工程博士</p>
                                 <p>宏裕科技大樓 1521</p>
-                                <p>cliu@ntut.edu.tw</p>
+                                <p><a href="mailto:cliu@ntut.edu.tw"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>E-Mail</a></p>
                                 <p><a href="http://www.cc.ntut.edu.tw/~cliu" target="blank">http://www.cc.ntut.edu.tw/~cliu</a></p>
                             </div>
                         </div>
