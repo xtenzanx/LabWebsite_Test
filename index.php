@@ -106,12 +106,12 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="papers text-center">
-                                <img src="./image/mugshot/cliu-A.png" alt="">
+                                <img src="./image/mugshot/cliu-B.png" alt="">
                                 <h2>劉建宏<span>教授</span></h2>
                                 <p>美國南加州大學<br>電機工程碩士</p>
                                 <p>美國德州大學 阿靈頓分校<br>計算機科學與工程博士</p>
                                 <p>宏裕科技大樓 1521</p>
-                                <p><a href="mailto:cliu@ntut.edu.tw"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>E-Mail</a></p>
+                                <a href="mailto:cliu@ntut.edu.tw"><img src="./image/email_cliu.jpg" alt=""></a>
                                 <p><a href="http://www.cc.ntut.edu.tw/~cliu" target="blank">http://www.cc.ntut.edu.tw/~cliu</a></p>
                             </div>
                         </div>
@@ -122,7 +122,7 @@
                                 <p>美國北卡州大 電機電腦工程系<br>計算機工程碩士</p>
                                 <p>美國北卡州大 電機電腦工程系<br>計算機工程博士</p>
                                 <p>宏裕科技大樓 1523</p>
-                                <p>wkc@csie.ntut.edu.tw</p>
+                                <a href="mailto:wkc@csie.ntut.edu.tw"><img src="./image/email_wkc.jpg" alt=""></a>
                                 <p><a href="http://www.cc.ntut.edu.tw/~wkchen" target="blank">http://www.cc.ntut.edu.tw/~wkchen</a></p>
                             </div>
                         </div>
@@ -566,7 +566,7 @@
                             </div>
                             <div id="collapse_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_4">
                             <div class="panel-body">
-                                <p>請使用Email聯繫劉建宏老師(＠)或陳偉凱老師(@)，洽詢面談的時間。地點在第六教學大樓後面的宏裕科技大樓 15 樓。</p>
+                                <p>請使用Email聯繫<a href="mailto:cliu@ntut.edu.tw">劉建宏老師</a>或<a href="mailto:wkc@csie.ntut.edu.tw">陳偉凱老師</a>，洽詢面談的時間。地點在第六教學大樓後面的宏裕科技大樓 15 樓。</p>
                                 <div class="row">
                                     <div class="col-md-6"><img src="./image/1521cliu.png" class="img-responsive" alt=""></div>
                                     <div class="col-md-6"><img src="./image/1523wkc.png" class="img-responsive" alt=""></div>
@@ -605,7 +605,7 @@
                             </div>
                             <div id="collapse_6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_6">
                             <div class="panel-body">
-                                <p>碩士論文內容必須理論與實務並重，且至少撰寫一篇國內(外)研討會論文(通常為台灣軟體工程研討會)</p>
+                                <p>碩士論文內容必須理論與實務並重，且至少撰寫一篇國內(外)研討會論文(通常為台灣軟體工程研討會)。</p>
                             </div>
                             </div>
                         </div>
