@@ -117,7 +117,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="papers text-center">
-                                <img src="image/mugshot/wkc-A.png" alt="">
+                                <img src="image/mugshot/wkc-C.png" alt="">
                                 <h2>陳偉凱 <span>教授</span></h2>
                                 <p>美國北卡州大 電機電腦工程系<br>計算機工程碩士</p>
                                 <p>美國北卡州大 電機電腦工程系<br>計算機工程博士</p>
