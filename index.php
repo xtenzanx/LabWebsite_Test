@@ -359,6 +359,12 @@
                         if($value->photo == 'none'){
                             $photo = 'none_w.png';
                         }
+
+                        $paper = '<a href="' . $value->url . '" target="blank">' . $value->paper . '</a>';
+                        if($value->paper == '未定'){
+                            $paper = '未定';
+                        }
+
                         echo "
                         <div class=\"item\">
                             <div class=\"thumbnail\">
@@ -366,7 +372,7 @@
                                 <div class=\"caption\">
                                     <h3>$value->name</h3>
                                     <p>$value->year 級</p>
-                                    <p>論文 : <a href=\"$value->url\" target=\"blank\">$value->paper</a></p>
+                                    <p>論文 : $paper</p>
                                 </div>
                             </div>
                         </div>
