@@ -366,7 +366,7 @@
                                 <div class=\"caption\">
                                     <h3>$value->name</h3>
                                     <p>$value->year 級</p>
-                                    <p>論文 : $value->paper</p>
+                                    <p>論文 : <a href=\"$value->url\" target=\"blank\">$value->paper</a></p>
                                 </div>
                             </div>
                         </div>
