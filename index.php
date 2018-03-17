@@ -63,14 +63,14 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">Home</a></li>
+            <li><a href="#tf-home" class="page-scroll">首頁</a></li>
             <li><a href="#tf-professor" class="page-scroll">指導教授</a></li>
-            <li><a href="#tf-about" class="page-scroll">About</a></li>
+            <li><a href="#tf-about" class="page-scroll">關於我們</a></li>
             <li><a href="#tf-services" class="page-scroll">研究重點</a></li>
             <li><a href="#tf-plans" class="page-scroll">研究計畫</a></li>
             <li><a href="#tf-team" class="page-scroll">實驗室成員</a></li>
             <li><a href="#tf-works" class="page-scroll">實驗室設備</a></li>
-            <li><a href="#tf-testimonials" class="page-scroll">Group Meeting</a></li>
+            <li><a href="#tf-testimonials" class="page-scroll">論文報告</a></li>
             <li><a href="#tf-contact" class="page-scroll">新生專區</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -111,7 +111,7 @@
                                 <p>美國南加州大學<br>電機工程碩士</p>
                                 <p>美國德州大學 阿靈頓分校<br>計算機科學與工程博士</p>
                                 <p>宏裕科技大樓 1521</p>
-                                <a href="mailto:cliu@ntut.edu.tw"><img src="./image/email_cliu.jpg" alt=""></a>
+                                <img src="./image/email_cliu.jpg" alt="">
                                 <p><a href="http://www.cc.ntut.edu.tw/~cliu" target="blank">http://www.cc.ntut.edu.tw/~cliu</a></p>
                             </div>
                         </div>
@@ -122,7 +122,7 @@
                                 <p>美國北卡州大 電機電腦工程系<br>計算機工程碩士</p>
                                 <p>美國北卡州大 電機電腦工程系<br>計算機工程博士</p>
                                 <p>宏裕科技大樓 1523</p>
-                                <a href="mailto:wkc@csie.ntut.edu.tw"><img src="./image/email_wkc.jpg" alt=""></a>
+                                <img src="./image/email_wkc.jpg" alt="">
                                 <p><a href="http://www.cc.ntut.edu.tw/~wkchen" target="blank">http://www.cc.ntut.edu.tw/~wkchen</a></p>
                             </div>
                         </div>
@@ -185,6 +185,31 @@
             </div>
             <!-- <div class="space"></div> -->
             <div class="row">
+                <div class="col-md-4 col-sm-6 service">
+                    <i class="fa fa-desktop"></i>
+                    <h4><strong>Software Development</strong></h4>
+                    <ul class="about-list">
+                        <li>
+                            <em>App Development</em>
+                        </li>
+                        <li>
+                            <em>HTML5 Application Development</em>
+                        </li>
+                        <li>
+                            <em>Computer Games</em>
+                        </li>
+                        <li>
+                            <em>E-learning</em>
+                        </li>
+                        <li>
+                            <em>Wearable Device App</em>
+                        </li>
+                        <li>
+                            <em>Design Patterns</em>
+                        </li>
+                    </ul>
+                </div>
+
                 <div class="col-md-4 col-sm-12 service">
                     <i class="fa fa-code"></i>
                     <h4><strong>Software Engineering</strong></h4>
@@ -193,19 +218,19 @@
                             <em>Object-Oriented Analysis and Design</em>
                         </li>
                         <li>
-                            <em>Design Patterns</em>
-                        </li>
-                        <li>
                             <em>Agile Process</em>
                         </li>
                         <li>
                             <em>Visual Language</em>
                         </li>
                         <li>
-                            <em>Personal Process Improvement</em>
+                            <em>Deep Learning for Software Engineering Applications</em>
                         </li>
                         <li>
-                            <em>Deep Learning For Software Engineering Applications</em>
+                            <em>Code Smell</em>
+                        </li>
+                        <li>
+                            <em>Refactoring</em>
                         </li>
                     </ul>
                 </div>
@@ -232,27 +257,8 @@
                         <li>
                             <em>Embedded Testing</em>
                         </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 col-sm-6 service">
-                    <i class="fa fa-desktop"></i>
-                    <h4><strong>Software Development</strong></h4>
-                    <ul class="about-list">
                         <li>
-                            <em>App Development</em>
-                        </li>
-                        <li>
-                            <em>HTML5 Application Development</em>
-                        </li>
-                        <li>
-                            <em>Computer Games</em>
-                        </li>
-                        <li>
-                            <em>E-learning</em>
-                        </li>
-                        <li>
-                            <em>Wearable Device App</em>
+                            <em>IoT Testing</em>
                         </li>
                     </ul>
                 </div>
@@ -298,7 +304,6 @@
                                     <td>$value->year</td>
                                     <td>$value->unit</td>
                                     <td class=\"td_title\">$value->project_name</td>
-                                    <td>$value->comments</td>
                                 </tr>
                                 ";
                                 $items_count++;
@@ -464,7 +469,7 @@
                             $items_count = 1;
 
                             $content = json_decode($content);
-                            echo "<div class=\"item\"><table class=\"table\"><tbody>";
+                            echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">時間</th><th scope=\"col\">報告人</th><th scope=\"col\">標題</th></tr></thead><tbody>";
                             foreach ($content as $key => $value) {
                                 if($items_count>10){
                                     echo "</tbody></table></div>";
@@ -566,7 +571,7 @@
                             </div>
                             <div id="collapse_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_4">
                             <div class="panel-body">
-                                <p>請使用Email聯繫<a href="mailto:cliu@ntut.edu.tw">劉建宏老師</a>或<a href="mailto:wkc@csie.ntut.edu.tw">陳偉凱老師</a>，洽詢面談的時間。地點在第六教學大樓後面的宏裕科技大樓 15 樓。</p>
+                                <p>請使用Email聯繫<a href="#tf-professor">劉建宏老師</a>或<a href="#tf-professor">陳偉凱老師</a>，洽詢面談的時間。地點在第六教學大樓後面的宏裕科技大樓 15 樓。</p>
                                 <div class="row">
                                     <div class="col-md-6"><img src="./image/1521cliu.png" class="img-responsive" alt=""></div>
                                     <div class="col-md-6"><img src="./image/1523wkc.png" class="img-responsive" alt=""></div>
@@ -589,7 +594,7 @@
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/fDVlToS4yMQ">Crawler demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/UvcYXf0VDzI">CTP Tutorial Analyzing Problems Using Recorded Video</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/BLhIksXoFKc">GUIDE demo</a></li>
-                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/l7etVMUS8SU">DrSmell demo</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/l7etVMUS8SU">Dr.Smell demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/67rg2X0VYnE">Deep Learning demo</a></li>
                                 </ol>
                             </div>

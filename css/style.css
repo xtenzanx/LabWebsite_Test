@@ -740,7 +740,10 @@ body{
     width: 100%;
 }
 
-
+/*== GROUP MEETING ==*/
+#testimonial .table th{
+	text-align: center;
+}
 
 /*== 新生專區 ==*/
 
