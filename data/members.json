@@ -2,255 +2,306 @@
 	"year": 106,
     "name": "林照晟",
     "photo": "林照晟/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 106,
     "name": "何威杭",
     "photo": "none",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 106,
     "name": "洪紹晏",
     "photo": "洪紹晏/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 106,
     "name": "陳日揚",
     "photo": "none",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 106,
     "name": "郭建陞",
     "photo": "郭建陞/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 106,
     "name": "李修豪",
     "photo": "none",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 106,
     "name": "林亮勛",
     "photo": "林亮勛/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 106,
     "name": "劉宸宗",
     "photo": "none",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 105,
     "name": "蔡博凱",
     "photo": "none",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 105,
     "name": "林政憲",
     "photo": "林政憲/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 105,
     "name": "林采嬑",
     "photo": "林采嬑/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 105,
     "name": "蔡名億",
     "photo": "蔡名億/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 105,
     "name": "陳肇陽",
     "photo": "none",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 105,
     "name": "劉人傑",
     "photo": "劉人傑/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 105,
     "name": "劉至峻",
     "photo": "劉至峻/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 105,
     "name": "張偉哲",
     "photo": "張偉哲/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 105,
     "name": "陳柏峻",
     "photo": "陳柏峻/",
-    "paper": "未定"
+    "paper": "未定",
+	"url": ""
 },{
 	"year": 104,
     "name": "秦永昭",
     "photo": "秦永昭/",
-    "paper": "雲端測試平台之測試覆蓋率工具設計與實作"
+    "paper": "雲端測試平台之測試覆蓋率工具設計與實作",
+	"url": ""
 },{
 	"year": 104,
     "name": "陳又樫",
     "photo": "陳又樫/",
-    "paper": "雲端測試平台之Android應用程式崩潰測試工具"
+    "paper": "雲端測試平台之Android應用程式崩潰測試工具",
+	"url": ""
 },{
     "year": 104,
     "name": "廖振諺",
     "photo": "廖振諺/",
-    "paper": "偵測重複KDT測試腳本之方法"
+    "paper": "偵測重複KDT測試腳本之方法",
+	"url": ""
 },{
 	"year": 104,
     "name": "李宗哲",
     "photo": "李宗哲/",
-    "paper": "以爬蟲器產生測試案例之Android程式異常行為偵測方法"
+    "paper": "以爬蟲器產生測試案例之Android程式異常行為偵測方法",
+	"url": ""
 },{
 	"year": 104,
     "name": "孫季加",
     "photo": "none",
-    "paper": "一個支援程式碼覆蓋率量測之漸進與互動式網頁爬蟲器"
+    "paper": "一個支援程式碼覆蓋率量測之漸進與互動式網頁爬蟲器",
+	"url": ""
 },{
 	"year": 104,
     "name": "何書杭",
     "photo": "none",
-    "paper": "一個支援Android爬蟲演算法比較之框架"
+    "paper": "一個支援Android爬蟲演算法比較之框架",
+	"url": ""
 },{
 	"year": 104,
     "name": "李柏鋐",
     "photo": "none",
-    "paper": "以資料流分析為基礎之Feature Envy偵測方法"
+    "paper": "以資料流分析為基礎之Feature Envy偵測方法",
+	"url": ""
 },{
 	"year": 104,
     "name": "黃泓鳴",
     "photo": "none",
-    "paper": "基於深度學習之音樂片段人聲辨識"
+    "paper": "基於深度學習之音樂片段人聲辨識",
+	"url": ""
 },{
 	"year": 104,
     "name": "黃靖文",
     "photo": "黃靖文/",
-    "paper": "一個漸進與互動式之Android應用程式爬蟲器"
+    "paper": "一個漸進與互動式之Android應用程式爬蟲器",
+	"url": ""
 },{
     "year": 103,
     "name": "Rahil Jumiyani",
     "photo": "Rahil/",
-    "paper": "Android手機手錶購物應用程式之設計與實作"
-}, {
+    "paper": "Android手機手錶購物應用程式之設計與實作",
+	"url": ""
+},{
     "year": 103,
     "name": "陳科銘",
     "photo": "陳科銘/",
-    "paper": "以漸增式使用者指引增加爬蟲器之網頁覆蓋率"
-}, {
+    "paper": "以漸增式使用者指引增加爬蟲器之網頁覆蓋率",
+	"url": ""
+},{
     "year": 103,
     "name": "鄭荃樺",
     "photo": "鄭荃樺/",
-    "paper": "一個支援多掃描器之可插入式網頁弱點掃描平台"
-}, {
+    "paper": "一個支援多掃描器之可插入式網頁弱點掃描平台",
+	"url": ""
+},{
     "year": 103,
     "name": "蔡泳誠",
     "photo": "蔡泳誠/",
-    "paper": "延伸雲端測試平台以支援Android與Firefox OS應用程式之測試"
-}, {
+    "paper": "延伸雲端測試平台以支援Android與Firefox OS應用程式之測試",
+	"url": ""
+},{
     "year": 103,
     "name": "歐陽騰",
     "photo": "歐陽騰/",
-    "paper": "一個支援處理相等GUI狀態及非決定性事件之Android爬蟲器"
-}, {
+    "paper": "一個支援處理相等GUI狀態及非決定性事件之Android爬蟲器",
+	"url": ""
+},{
     "year": 103,
     "name": "楊凱霖",
     "photo": "楊凱霖/",
-    "paper": "支援程式作業壞味道偵測與批改之工具"
-}, {
+    "paper": "支援程式作業壞味道偵測與批改之工具",
+	"url": ""
+},{
     "year": 103,
     "name": "林容榆",
     "photo": "林容榆/",
-    "paper": "Android手機手錶互動應用程式之相容性測試研究"
-}, {
+    "paper": "Android手機手錶互動應用程式之相容性測試研究",
+	"url": ""
+},{
     "year": 103,
     "name": "周世邦",
     "photo": "周世邦/",
-    "paper": "以主從架構擴充使用USB埠連接ADB之數量"
-}, {
+    "paper": "以主從架構擴充使用USB埠連接ADB之數量",
+	"url": ""
+},{
     "year": 103,
     "name": "古健樺",
     "photo": "古健樺/",
-    "paper": "KDT測試腳本之視覺化工具"
-}, {
+    "paper": "KDT測試腳本之視覺化工具",
+	"url": ""
+},{
     "year": 102,
     "name": "崔宏康",
     "photo": "崔宏康/",
-    "paper": "未定"
-}, {
+    "paper": "未定",
+	"url": ""
+},{
     "year": 102,
     "name": "朱宏文",
     "photo": "朱宏文/",
-    "paper": "Android App伺服器效能測試平台"
-}, {
+    "paper": "Android App伺服器效能測試平台",
+	"url": ""
+},{
     "year": 102,
     "name": "林承甫",
     "photo": "林承甫/",
-    "paper": "JavaScript網頁應用程式資料流測試模型之研究"
-}, {
+    "paper": "JavaScript網頁應用程式資料流測試模型之研究",
+	"url": ""
+},{
     "year": 102,
     "name": "舒一斌",
     "photo": "舒一斌/",
-    "paper": "遊戲自動化功能性測試工具設計與調查"
-}, {
+    "paper": "遊戲自動化功能性測試工具設計與調查",
+	"url": ""
+},{
     "year": 102,
     "name": "陳祐翎",
     "photo": "陳祐翎/",
-    "paper": "整合Android應用程式安全分析工具之平台"
-}, {
+    "paper": "整合Android應用程式安全分析工具之平台",
+	"url": ""
+},{
     "year": 102,
     "name": "黃睿哲",
     "photo": "黃睿哲/",
-    "paper": "一個以狀態為基礎之 Android 應用程式爬蟲器"
-}, {
+    "paper": "一個以狀態為基礎之 Android 應用程式爬蟲器",
+	"url": ""
+},{
     "year": 101,
     "name": "許家豪",
     "photo": "none",
-    "paper": "Robot Framework之calabash - Android測試函式庫設計與實作"
-}, {
+    "paper": "Robot Framework之calabash - Android測試函式庫設計與實作",
+	"url": ""
+},{
     "year": 101,
     "name": "邱威霖",
     "photo": "邱威霖/",
-    "paper": "利用Arduino機器手臂測試Android應用程式非靜止行為之研究"
-}, {
+    "paper": "利用Arduino機器手臂測試Android應用程式非靜止行為之研究",
+	"url": ""
+},{
     "year": 101,
     "name": "陳季宣",
     "photo": "陳季宣/",
-    "paper": "Android底層事件轉換為關鍵字驅動測試腳本之設計與實作"
-}, {
+    "paper": "Android底層事件轉換為關鍵字驅動測試腳本之設計與實作",
+	"url": ""
+},{
     "year": 101,
     "name": "陳皇各",
     "photo": "none",
-    "paper": "Android關鍵字驅動測試函式庫與工具之設計與開發"
-}, {
+    "paper": "Android關鍵字驅動測試函式庫與工具之設計與開發",
+	"url": ""
+},{
     "year": 101,
     "name": "黃泰瑚",
     "photo": "黃泰瑚/",
-    "paper": "應用HTML5遊戲框架於物件導向程式設計實習課程教學"
-}, {
+    "paper": "應用HTML5遊戲框架於物件導向程式設計實習課程教學",
+	"url": ""
+},{
     "year": 101,
     "name": "李友文",
     "photo": "none",
-    "paper": "雲端測試服務平台Android測試過程錄影服務設計與實作"
-}, {
+    "paper": "雲端測試服務平台Android測試過程錄影服務設計與實作",
+	"url": ""
+},{
     "year": 101,
     "name": "徐嘉陞",
     "photo": "徐嘉陞/",
-    "paper": "支援遊戲自動化測試之HTML5遊戲框架"
-}, {
+    "paper": "支援遊戲自動化測試之HTML5遊戲框架",
+	"url": ""
+},{
     "year": 101,
     "name": "姚皓天",
     "photo": "姚皓天/",
-    "paper": "適用於Android雲端測試平台 的負載平衡策略"
-}, {
+    "paper": "適用於Android雲端測試平台 的負載平衡策略",
+	"url": ""
+},{
     "year": 100,
     "name": "黃冠智",
     "photo": "none",
-    "paper": "未定"
-}, {
+    "paper": "未定",
+	"url": ""
+},{
     "year": 100,
     "name": "陳炳宏",
     "photo": "陳炳宏/",
-    "paper": "一個資料庫與全球資訊網應用的表格呈現語言"
+    "paper": "一個資料庫與全球資訊網應用的表格呈現語言",
+    "url": ""
 }]
