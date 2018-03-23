@@ -291,11 +291,11 @@
                             $items_count = 1;
 
                             $content = json_decode($content);
-                            echo "<div class=\"item\"><table class=\"table\"><tbody>";
+                            echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">時間</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
                             foreach ($content as $key => $value) {
                                 if($items_count>10){
                                     echo "</tbody></table></div>";
-                                    echo "<div class=\"item\"><table class=\"table\"><tbody>";
+                                    echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">時間</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
                                     $items_count = 1;
                                 }
                                 
@@ -479,7 +479,7 @@
                             foreach ($content as $key => $value) {
                                 if($items_count>10){
                                     echo "</tbody></table></div>";
-                                    echo "<div class=\"item\"><table class=\"table\"><tbody>";
+                                    echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">時間</th><th scope=\"col\">報告人</th><th scope=\"col\">標題</th></tr></thead><tbody>";
                                     $items_count = 1;
                                 }
                                 
