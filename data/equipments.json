@@ -50,4 +50,16 @@
     "name": "飲水機",
     "photo": "./image/equipments/water.png",
     "type": "other"
+}, {
+    "name": "Learning機(1080ti*3)",
+    "photo": "./image/equipments/learning_1.png",
+    "type": "electronic"
+}, {
+    "name": "Learning機(1080ti*2)",
+    "photo": "./image/equipments/learning_2.png",
+    "type": "electronic"
+}, {
+    "name": "Server",
+    "photo": "./image/equipments/server.png",
+    "type": "electronic"
 }]
