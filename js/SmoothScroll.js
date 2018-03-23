@@ -511,13 +511,13 @@ function pulse(x) {
     return pulse_(x);
 }
 
-var isChrome = /chrome/i.test(window.navigator.userAgent);
-var isMouseWheelSupported = 'onmousewheel' in document; 
+// var isChrome = /chrome/i.test(window.navigator.userAgent);
+// var isMouseWheelSupported = 'onmousewheel' in document; 
 
-if (isMouseWheelSupported && isChrome) {
-	addEvent("mousedown", mousedown);
-	addEvent("mousewheel", wheel);
-	addEvent("load", init);
-};
+// if (isMouseWheelSupported && isChrome) {
+// 	addEvent("mousedown", mousedown);
+// 	addEvent("mousewheel", wheel);
+// 	addEvent("load", init);
+// };
 
 })();
