@@ -600,7 +600,7 @@
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/fDVlToS4yMQ">Crawler demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/UvcYXf0VDzI">CTP Tutorial Analyzing Problems Using Recorded Video</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/BLhIksXoFKc">GUIDE demo</a></li>
-                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/l7etVMUS8SU">Dr.Smell demo</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/B31ubbtDA7Q">Dr.Smell demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/67rg2X0VYnE">Deep Learning demo</a></li>
                                 </ol>
                             </div>
