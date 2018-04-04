@@ -211,7 +211,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-12 service">
-                    <i class="fa fa-code"></i>
+                    <i class="fa fa-cogs"></i>
                     <h4><strong>Software Engineering</strong></h4>
                     <ul class="about-list">
                         <li>
@@ -224,19 +224,16 @@
                             <em>Visual Language</em>
                         </li>
                         <li>
-                            <em>Deep Learning for Software Engineering Applications</em>
+                            <em>Deep Learning Applications for Software Engineering</em>
                         </li>
                         <li>
-                            <em>Code Smell</em>
-                        </li>
-                        <li>
-                            <em>Refactoring</em>
+                            <em>Code Smell and Refactoring</em>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 col-sm-6 service">
-                    <i class="fa fa-mobile"></i>
+                    <i class="fa fa-search"></i>
                     <h4><strong>Software Testing</strong></h4>
                     <ul class="about-list">
                         <li>
@@ -246,16 +243,13 @@
                             <em>Cloud Testing Service</em>
                         </li>
                         <li>
-                            <em>Web & Web Service Testing</em>
+                            <em>Web App and Web Service Testing</em>
                         </li>
                         <li>
                             <em>GUI Testing</em>
                         </li>
                         <li>
                             <em>Game Testing</em>
-                        </li>
-                        <li>
-                            <em>Embedded Testing</em>
                         </li>
                         <li>
                             <em>IoT Testing</em>
@@ -291,11 +285,11 @@
                             $items_count = 1;
 
                             $content = json_decode($content);
-                            echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">時間</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
+                            echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">年度</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
                             foreach ($content as $key => $value) {
                                 if($items_count>10){
                                     echo "</tbody></table></div>";
-                                    echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">時間</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
+                                    echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">年度</th><th scope=\"col\">單位</th><th scope=\"col\">計畫名稱</th></tr></thead><tbody>";
                                     $items_count = 1;
                                 }
                                 
@@ -475,11 +469,11 @@
                             $items_count = 1;
 
                             $content = json_decode($content);
-                            echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">時間</th><th scope=\"col\">報告人</th><th scope=\"col\">標題</th></tr></thead><tbody>";
+                            echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">日期</th><th scope=\"col\">報告人</th><th scope=\"col\">標題</th></tr></thead><tbody>";
                             foreach ($content as $key => $value) {
                                 if($items_count>10){
                                     echo "</tbody></table></div>";
-                                    echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">時間</th><th scope=\"col\">報告人</th><th scope=\"col\">標題</th></tr></thead><tbody>";
+                                    echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">日期</th><th scope=\"col\">報告人</th><th scope=\"col\">標題</th></tr></thead><tbody>";
                                     $items_count = 1;
                                 }
                                 
