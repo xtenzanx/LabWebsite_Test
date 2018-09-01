@@ -72,6 +72,11 @@
             <li><a href="#tf-works" class="page-scroll">實驗室設備</a></li>
             <li><a href="#tf-testimonials" class="page-scroll">論文報告</a></li>
             <li><a href="#tf-contact" class="page-scroll">新生專區</a></li>
+            <li>
+                <div id="div_translate">
+                    <div id="google_translate_element"></div>        
+                </div>
+            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -676,6 +681,15 @@
         modal.find('.embed-responsive-item').attr("src",recipient);
     });
     </script>
+
+
+    <!-- google translate -->
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'zh-TW', includedLanguages: 'en,ja,ko,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   </body>
 </html>
