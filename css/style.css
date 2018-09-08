@@ -592,6 +592,10 @@ body{
 	font-family: 微軟正黑體, Arial, Helvetica, sans-serif;
 }
 
+
+#bs-example-navbar-collapse-1{
+	max-height: 425px;
+}
 #div_translate{
 	padding: 12px 0 12px 0;
 }
