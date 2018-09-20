@@ -121,7 +121,7 @@ font-weight: 900;
 #tf-home{
 	background: url(../image/background/pexels-photo.jpeg);
 	background-size: cover;
-	background-position: center;
+	background-position: 90%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #cfcfcf;

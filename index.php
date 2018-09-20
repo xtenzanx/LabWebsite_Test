@@ -155,7 +155,8 @@
                             <hr>
                             <div class="clearfix"></div>
                         </div>
-                        <p class="intro">它涉及到程式設計語言、資料庫、軟體開發工具、系統平台、標準、設計模式等方面。其後的幾十年裡，各種有關軟體工程的技術、思想、方法和概念不斷被提出，軟體工程逐步發展為一門獨立的科學。</p>
+                        <i>Keeping software soft.</i>
+                        <p class="intro">會寫程式的人常常以為自己很厲害、很會寫code，但是其實寫程式不等於開發軟體、會開發軟體不等於會設計軟體、可執行的軟體不等於高品質的軟體、十個人一起開發軟體不等於十倍的生產力。我們實驗室專攻“<strong>軟體工程</strong>”，目的是引領會寫code的人做良好的軟體設計，實踐軟體工程實務，成為更優秀的軟體開發人員，讓軟體好擴充、好維護、好修改，成為真正的“<strong>軟</strong>”體 。</p>
                         <!-- <ul class="about-list">
                             <li>
                                 <span class="fa fa-dot-circle-o"></span>
