@@ -103,7 +103,7 @@
                 <div class="col-md-10 col-md-offset-1">
 
                     <div class="section-title center">
-                        <h2><strong>指導</strong>教授</h2>
+                        <h2><strong>指導教授</strong></h2>
                         <div class="line">
                             <hr>
                         </div>
