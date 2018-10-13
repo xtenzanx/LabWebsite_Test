@@ -22,6 +22,9 @@
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
     <!-- Slider
     ================================================== -->
     <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
@@ -76,6 +79,9 @@
                 <div id="div_translate">
                     <div id="google_translate_element"></div>        
                 </div>
+            </li>
+            <li>
+                <button id="btn_triggerTranslate" onclick="triggerTranslate()"><i class="fas fa-language"></i> English</button>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -691,6 +697,19 @@
     }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+    <!-- 按鈕觸發翻譯 -->
+    <script>
+    var option;
+    function triggerTranslate(){
+        if(option == null){
+            option = $('.skiptranslate').contents().find(".text:eq(1)");
+        }
+        // console.log(option.text());
+        option.click();
+    }
+    </script>
 
   </body>
 </html>

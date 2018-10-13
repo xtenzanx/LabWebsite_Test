@@ -598,6 +598,22 @@ body{
 }
 #div_translate{
 	padding: 12px 0 12px 0;
+	display: none;
+}
+#btn_triggerTranslate{
+	margin-top: 11px;
+	margin-left: 12px;
+	background:    #e69138;
+	background:    -webkit-linear-gradient(#f6b26b, #e69138 50%, #f6b26b);
+	background:    linear-gradient(#f6b26b, #e69138 50%, #f6b26b);
+	border:        1px solid #fcac45;
+	border-radius: 1000px;
+	padding:       2px 12px;
+	color:         #ffffff;
+	display:       inline-block;
+	/* font:          normal 700 18px/1 "Komika", cursive; */
+	text-align:    center;
+	text-shadow:   none;
 }
 
 /*== 指導教授 ==*/
