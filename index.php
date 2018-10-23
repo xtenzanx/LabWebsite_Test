@@ -118,7 +118,7 @@
                         <div class="col-md-6">
                             <div class="papers text-center">
                                 <img src="./image/mugshot/cliu-B.png" alt="">
-                                <h2>劉建宏<span>教授</span></h2>
+                                <h2>劉建宏<p>教授</p></h2>
                                 <p>美國南加州大學<br>電機工程碩士</p>
                                 <p>美國德州大學 阿靈頓分校<br>計算機科學與工程博士</p>
                                 <p>宏裕科技大樓 1521</p>
@@ -129,9 +129,9 @@
                         <div class="col-md-6">
                             <div class="papers text-center">
                                 <img src="image/mugshot/wkc-C.png" alt="">
-                                <h2>陳偉凱 <span>教授</span></h2>
-                                <p>美國北卡州大 電機電腦工程系<br>計算機工程碩士</p>
-                                <p>美國北卡州大 電機電腦工程系<br>計算機工程博士</p>
+                                <h2>陳偉凱<p>教授</p></h2>
+                                <p>美國北卡州立大學 電機暨電腦工程系<br>計算機工程碩士</p>
+                                <p>美國北卡州立大學 電機暨電腦工程系<br>計算機工程博士</p>
                                 <p>宏裕科技大樓 1523</p>
                                 <img src="./image/email_wkc.jpg" alt="">
                                 <p><a href="http://www.cc.ntut.edu.tw/~wkchen" target="blank">http://www.cc.ntut.edu.tw/~wkchen</a></p>
@@ -378,7 +378,8 @@
                                 <div class=\"caption\">
                                     <h3>$value->name</h3>
                                     <p>$value->year 級</p>
-                                    <p>論文 : $paper</p>
+                                    <p class=\"p_paper\">碩士論文 : </p>
+                                    <p class=\"p_paper\">$paper</p>
                                 </div>
                             </div>
                         </div>
