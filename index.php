@@ -348,9 +348,25 @@
                     <div class="line">
                         <hr>
                     </div>
+                    <div class="clearfix"></div>
+                    <!-- <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
                 </div>
 
-                <div id="team" class="owl-carousel owl-theme row">
+                <div class="categories">
+                    <select id="teamYear" class="form-control">
+                        <option value=".107">107 級</option>
+                        <option value=".106">106 級</option>
+                        <option value=".105">105 級</option>
+                        <option value=".104">104 級</option>
+                        <option value=".103">103 級</option>
+                        <option value=".102">102 級</option>
+                        <option value=".101">101 級</option>
+                        <option value=".100">100 級</option>
+                        <option value="*">ALL</option>
+                    </select>
+                </div>
+
+                <div id="lightbox_team" class="row">
                     <?php
                     $handle = fopen("data/members.json","rb");
                     $content = "";
@@ -372,14 +388,16 @@
                         }
 
                         echo "
-                        <div class=\"item\">
-                            <div class=\"thumbnail\">
-                                <img src=\"image/mugshot/$photo\" alt=\"...\" class=\"img-circle team-img\">
-                                <div class=\"caption\">
-                                    <h3>$value->name</h3>
-                                    <p>$value->year 級</p>
-                                    <p class=\"p_paper\">碩士論文 : </p>
-                                    <p class=\"p_paper\">$paper</p>
+                        <div class=\"col-sm-6 col-md-3 col-lg-3 $value->year\">
+                            <div class=\"portfolio-item\">
+                                <div class=\"hover-bg\">
+                                    <img src=\"image/mugshot/$photo\" alt=\"...\" class=\"img-circle team-img\">
+                                    <div class=\"caption\">
+                                        <h3>$value->name</h3>
+                                        <p>$value->year 級</p>
+                                        <p class=\"p_paper\">碩士論文 : </p>
+                                        <p class=\"p_paper\">$paper</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -387,7 +405,6 @@
                     }
                     ?>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -698,19 +715,6 @@
     }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-    <!-- 按鈕觸發翻譯 -->
-    <script>
-    var option;
-    function triggerTranslate(){
-        if(option == null){
-            option = $('.skiptranslate').contents().find(".text:eq(1)");
-        }
-        // console.log(option.text());
-        option.click();
-    }
-    </script>
 
   </body>
 </html>

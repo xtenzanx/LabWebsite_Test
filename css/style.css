@@ -401,7 +401,7 @@ ol.type li a.active { font-weight: 700; }
 	margin-bottom: 30px;
 }
 .portfolio-item .hover-bg{
-	height: 260px;
+	height: 270px;
 	overflow: hidden;
 	position: relative;
 }
@@ -759,6 +759,13 @@ body{
 }
 .p_paper{
 	display: inline;
+}
+
+/*== 實驗室成員 ==*/
+
+#teamYear{
+	max-width: 100px;
+	margin: 0 auto 20px auto;
 }
 
 

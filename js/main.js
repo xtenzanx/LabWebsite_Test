@@ -133,3 +133,47 @@ function main() {
 
 }
 main();
+
+
+
+/*====================================
+按鈕觸發翻譯
+======================================*/
+
+var option;
+function triggerTranslate(){
+    if(option == null){
+        option = $('.skiptranslate').contents().find(".text:eq(1)");
+    }
+    // console.log(option.text());
+    option.click();
+}
+
+/*====================================
+實驗室成員切換
+======================================*/
+
+var $container_team = $('#lightbox_team');
+$container_team.isotope({
+    filter: '.107',
+    animationOptions: {
+        duration: 750,
+        easing: 'linear',
+        queue: false
+    }
+});
+
+$('#teamYear').change(function(){
+    var year = $(this).val();
+    console.log('year -> ' + year);
+
+    $container_team.isotope({
+        filter: year,
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
+    });
+    return false;
+});
