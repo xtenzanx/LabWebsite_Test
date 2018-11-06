@@ -1,4 +1,14 @@
 [{
+    "year": "107-108",
+    "unit": "科技部",
+    "project_name": "程式碼Feature Envy壞味道偵測方法之研究",
+    "comments": "主持人"
+}, {
+    "year": "106-107",
+    "unit": "科技部",
+    "project_name": "支援互動遞增式使用者指引與自動測試案例產生之網頁爬蟲",
+    "comments": "主持人"
+}, {
     "year": "106-107",
     "unit": "科技部",
     "project_name": "植基於GUI爬蟲技術以測試Android應用程式之研究 (I) (MOST 106-2221-E-027-008 -)",

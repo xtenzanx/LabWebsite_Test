@@ -1,4 +1,172 @@
 [{
+    "date": "2018-11-01",
+    "name": "林亮勳",
+    "topic": "SampleCNN : End-to-End Deep Convolutional Neural Networks Using Very Small Filters for Music Classification"
+},{
+    "date": "2018-11-01",
+    "name": "洪子軒",
+    "topic": "Invasive Software Testing: Mutating Target Programs to Diversify Test Exploration for High Test Coverage"
+},{
+    "date": "2018-10-25",
+    "name": "洪紹晏",
+    "topic": "Convolutional Deep Q-learning for ETF Automated Trading System"
+},{
+    "date": "2018-10-25",
+    "name": "邱楹傑",
+    "topic": "Asynchronous Methods for Deep Reinforcement Learning"
+},{
+    "date": "2018-10-11",
+    "name": "陳日揚",
+    "topic": "c-JRefRec: Change-based identification of Move Method refactoring opportunities"
+},{
+    "date": "2018-10-11",
+    "name": "周士禾",
+    "topic": "Automated Mutation-Based Test Case Evaluation for Semantic Web Services"
+},{
+    "date": "2018-10-04",
+    "name": "劉宸宗",
+    "topic": "Crashscope: A practical tool for automated testing of android applications"
+},{
+    "date": "2018-10-04",
+    "name": "林照晟",
+    "topic": "Crawling AJAX by Inferring User Interface State Changes"
+},{
+    "date": "2018-09-27",
+    "name": "何威杭",
+    "topic": "Human-level control through deep reinforcement learning"
+},{
+    "date": "2018-09-27",
+    "name": "郭建陞",
+    "topic": "Generating musical expression of MIDI music with LSTM neural network"
+},{
+    "date": "2018-09-20",
+    "name": "李修豪",
+    "topic": "Automatic Android Application GUI Testing—A Random Walk Approach"
+},{
+    "date": "2018-09-05",
+    "name": "洪紹晏",
+    "topic": "The Application of Deep Reinforcement Learning on Dynamic Asset Allocation : A Case Study of U.S. ETFs"
+},{
+    "date": "2018-09-05",
+    "name": "林亮勳",
+    "topic": "RANDOMLY WEIGHTED CNNs FOR (MUSIC) AUDIO CLASSIFICATION"
+},{
+    "date": "2018-08-29",
+    "name": "林照晟",
+    "topic": "X-Check: A Novel Cross-Browser Testing Service Based on Record/Replay"
+},{
+    "date": "2018-08-29",
+    "name": "陳日揚",
+    "topic": "The Soot framework for Java program analysis: a retrospective"
+},{
+    "date": "2018-08-22",
+    "name": "劉宸宗",
+    "topic": "PATDroid: Permission-Aware GUI Testing of Android"
+},{
+    "date": "2018-08-15",
+    "name": "郭建陞",
+    "topic": "MIDI簡介"
+},{
+    "date": "2018-08-08",
+    "name": "何威杭",
+    "topic": "Self-Paced Prioritized Curriculum Learning With Coverage Penalty in Deep Reinforcement Learning"
+},{
+    "date": "2018-08-08",
+    "name": "李修豪",
+    "topic": "ReTestDroid: Towards Safer Regression Test Selection for Android Application"
+},{
+    "date": "2018-08-01",
+    "name": "洪紹晏",
+    "topic": "Investment decision making by using fuzzy candlestick pattern and genetic algorithm"
+},{
+    "date": "2018-08-01",
+    "name": "林亮勳",
+    "topic": "Deep learning"
+},{
+    "date": "2018-07-18",
+    "name": "陳日揚",
+    "topic": "High-frequency Keywords to Predict Defects for Android Applications"
+},{
+    "date": "2018-07-18",
+    "name": "劉宸宗",
+    "topic": "DetReduce: Minimizing Android GUI Test Suites for Regression Testing"
+},{
+    "date": "2018-05-24",
+    "name": "林照晟",
+    "topic": "Towards an emulated IoT test environment for anomaly detection using NEMU"
+},{
+    "date": "2018-05-24",
+    "name": "劉宸宗",
+    "topic": "Automation of Android Applications Functional Testing Using Machine Learning Activities Classification"
+},{
+    "date": "2018-05-17",
+    "name": "陳炳宏",
+    "topic": "A Curriculum for Developing Serious Games for Children with Autism : A Success Story"
+},{
+    "date": "2018-05-17",
+    "name": "郭建陞",
+    "topic": "Teaching Machines to Read and Comprehend"
+},{
+    "date": "2018-05-03",
+    "name": "陳柏峻",
+    "topic": "Ten Years of JDeodorant: Lessons Learned from the Hunt for Smells"
+},{
+    "date": "2018-05-03",
+    "name": "李修豪",
+    "topic": "An Automated Model Based Testing Approach for Platform Games"
+},{
+    "date": "2018-04-19",
+    "name": "陳肇陽",
+    "topic": "CrashScope: A Practical Tool for Automated Testing of Android Applications"
+},{
+    "date": "2018-04-19",
+    "name": "何威杭",
+    "topic": "Reinforcement Learning for Automatic Test Case Prioritization and Selection in Continuous Integration"
+},{
+    "date": "2018-04-12",
+    "name": "劉人傑",
+    "topic": "Dynamic Routing Between Capsules"
+},{
+    "date": "2018-04-12",
+    "name": "林亮勳",
+    "topic": "Model-Based Testing IoT Communication via Active Automata Learning"
+},{
+    "date": "2018-03-29",
+    "name": "蔡名億",
+    "topic": "A method for selecting environments for software compatibility testing"
+},{
+    "date": "2018-03-29",
+    "name": "洪紹晏",
+    "topic": "Buy/Sell Signal Detection in Stock Trading with Bollinger Bands and Parabolic SAR with Web Application for Proofing Trading Strategy"
+},{
+    "date": "2018-03-22",
+    "name": "林采嬑",
+    "topic": "Automatic Android Application GUI Testing - A Random Walk Approach"
+},{
+    "date": "2018-03-22",
+    "name": "陳日揚",
+    "topic": "DeepXplore: Automated Whitebox Testing of Deep Learning Systems"
+},{
+    "date": "2018-03-15",
+    "name": "劉至峻",
+    "topic": "Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting"
+},{
+    "date": "2018-03-15",
+    "name": "林照晟",
+    "topic": "Using Petri Nets to Test Concurrent Behavior of Web Applications"
+},{
+    "date": "2018-03-08",
+    "name": "蔡博凱",
+    "topic": "An Event based Test Automation Framework for Android Mobiles"
+},{
+    "date": "2018-02-06",
+    "name": "林政憲",
+    "topic": "WEBDIFF: Automated Identification of Cross-browser Issues in Web Applications"
+},{
+    "date": "2018-02-06",
+    "name": "劉宸宗",
+    "topic": "A GUI Crawling-based technique for Android Mobile Application Testing"
+},{
     "date": "2018-01-30",
     "name": "陳炳宏",
     "topic": "JavaScript Is Not the Language You Think It Is"

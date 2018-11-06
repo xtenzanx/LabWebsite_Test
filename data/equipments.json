@@ -1,4 +1,20 @@
 [{
+    "name": "65吋液晶螢幕",
+    "photo": "./image/equipments/screen_65.png",
+    "type": "electronic"
+},{
+    "name": "Learning機(1080ti*3)",
+    "photo": "./image/equipments/learning_3.png",
+    "type": "electronic"
+}, {
+    "name": "Learning機(1080ti*3)",
+    "photo": "./image/equipments/learning_1.png",
+    "type": "electronic"
+}, {
+    "name": "Learning機(1080ti*2)",
+    "photo": "./image/equipments/learning_2.png",
+    "type": "electronic"
+}, {
     "name": "Intel i7 筆記型電腦",
     "photo": "./image/equipments/laptop.png",
     "type": "electronic"
@@ -7,13 +23,17 @@
     "photo": "./image/equipments/tablet.png",
     "type": "electronic"
 }, {
+    "name": "Server",
+    "photo": "./image/equipments/server.png",
+    "type": "electronic"
+}, {
+    "name": "冰箱",
+    "photo": "./image/equipments/refrigerator.png",
+    "type": "other"
+}, {
     "name": "外接DVD燒錄器",
     "photo": "./image/equipments/dvd.png",
     "type": "electronic"
-}, {
-    "name": "電動釘書機",
-    "photo": "./image/equipments/stapler.png",
-    "type": "other"
 }, {
     "name": "Intel i7 SSD 個人主機",
     "photo": "./image/equipments/pc.png",
@@ -35,10 +55,6 @@
     "photo": "./image/equipments/scanner.png",
     "type": "electronic"
 }, {
-    "name": "冰箱",
-    "photo": "./image/equipments/refrigerator.png",
-    "type": "other"
-}, {
     "name": "嵌入式開發版",
     "photo": "./image/equipments/microprocessor.png",
     "type": "electronic"
@@ -50,16 +66,8 @@
     "name": "飲水機",
     "photo": "./image/equipments/water.png",
     "type": "other"
-}, {
-    "name": "Learning機(1080ti*3)",
-    "photo": "./image/equipments/learning_1.png",
-    "type": "electronic"
-}, {
-    "name": "Learning機(1080ti*2)",
-    "photo": "./image/equipments/learning_2.png",
-    "type": "electronic"
-}, {
-    "name": "Server",
-    "photo": "./image/equipments/server.png",
-    "type": "electronic"
+},{
+    "name": "電動釘書機",
+    "photo": "./image/equipments/stapler.png",
+    "type": "other"
 }]

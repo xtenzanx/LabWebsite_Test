@@ -197,7 +197,7 @@
             </div>
             <!-- <div class="space"></div> -->
             <div class="row">
-                <div class="col-md-4 col-sm-6 service">
+                <div class="col-md-4 service">
                     <i class="fa fa-desktop"></i>
                     <h4><strong>Software Development</strong></h4>
                     <ul class="about-list">
@@ -222,7 +222,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-4 col-sm-12 service">
+                <div class="col-md-4 service">
                     <i class="fa fa-cogs"></i>
                     <h4><strong>Software Engineering</strong></h4>
                     <ul class="about-list">
@@ -244,7 +244,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-4 col-sm-6 service">
+                <div class="col-md-4 service">
                     <i class="fa fa-search"></i>
                     <h4><strong>Software Testing</strong></h4>
                     <ul class="about-list">
@@ -388,7 +388,7 @@
                         }
 
                         echo "
-                        <div class=\"col-sm-6 col-md-3 col-lg-3 $value->year\">
+                        <div class=\"col-xs-6 col-sm-6 col-md-3 col-lg-3 $value->year isotope-item\">
                             <div class=\"portfolio-item\">
                                 <div class=\"hover-bg\">
                                     <img src=\"image/mugshot/$photo\" alt=\"...\" class=\"img-circle team-img\">
