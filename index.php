@@ -22,6 +22,9 @@
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
+    <!-- Datatables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
@@ -424,7 +427,6 @@
             <!-- <div class="space"></div> -->
 
             <div class="categories">
-                
                 <ul class="cat">
                     <li class="pull-left"><h4>Filter by Type:</h4></li>
                     <li class="pull-right">
@@ -487,38 +489,37 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <div id="testimonial" class="owl-carousel owl-theme">
-                            <?php
-                            $handle = fopen("data/presentationHistory.json","rb");
-                            $content = "";
-                            while (!feof($handle)) {
-                                    $content .= fread($handle, 10000);
-                            }
-                            fclose($handle);
-                            
-                            $items_count = 1;
-
-                            $content = json_decode($content);
-                            echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">日期</th><th scope=\"col\">報告人</th><th scope=\"col\">標題</th></tr></thead><tbody>";
-                            foreach ($content as $key => $value) {
-                                if($items_count>10){
-                                    echo "</tbody></table></div>";
-                                    echo "<div class=\"item\"><table class=\"table\"><thead><tr><th scope=\"col\">日期</th><th scope=\"col\">報告人</th><th scope=\"col\">標題</th></tr></thead><tbody>";
-                                    $items_count = 1;
-                                }
-                                
-                                echo "
+                        <table id="table_GroupMeeting" class="table" style="width:100%">
+                            <thead>
                                 <tr>
-                                    <td>$value->date</td>
-                                    <td>$value->name</td>
-                                    <td class=\"td_title\">$value->topic</td>
+                                    <th>日期</th>
+                                    <th>報告人</th>
+                                    <th class="td_title">標題</th>
                                 </tr>
-                                ";
-                                $items_count++;
-                            }
-                            echo "</tbody></table></div>";
-                            ?>
-                        </div>
+                            </thead>
+                            <tbody>
+                                <?php
+                                $handle = fopen("data/presentationHistory.json","rb");
+                                $content = "";
+                                while (!feof($handle)) {
+                                        $content .= fread($handle, 10000);
+                                }
+                                fclose($handle);
+
+                                $content = json_decode($content);
+
+                                foreach ($content as $key => $value) {
+                                    echo "
+                                    <tr>
+                                        <td>$value->date</td>
+                                        <td>$value->name</td>
+                                        <td class=\"td_title\">$value->topic</td>
+                                    </tr>
+                                    ";
+                                }
+                                ?>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -691,6 +692,7 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 
     <script src="js/owl.carousel.js"></script>
 
@@ -707,6 +709,15 @@
     });
     </script>
 
+    <!-- DataTable -->
+    <script>
+    $(document).ready(function() {
+        $('#table_GroupMeeting').DataTable({
+            ordering: false,
+            autoWidth: false
+        });
+    } );
+    </script>
 
     <!-- google translate -->
     <script type="text/javascript">
