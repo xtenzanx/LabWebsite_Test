@@ -568,9 +568,14 @@
                             </div>
                             <div id="collapse_2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_2">
                             <div class="panel-body">
-                                <p>一上的同學，就專心在修課上面，如果想參與實驗室的計畫也是 OK 的！一下修OOAD時，課程專案可以開始接觸實驗室學長姊所開發的系統。</p>
-                                <p>二年級時就要專心準備論文，這時就要每週跟老師討論進度，慢慢完成自己的研究。</p>
-                                <p>而每位同學每週都要參加 Group Meeting，一週大概 1 - 2 人，輪流報告一篇自己選定的 Paper 向大家分享。</p>
+                                <ul>
+                                    <li>研一上的同學，就專心在修課上面，如果想參與實驗室的計畫也是 OK 的！</li>
+                                    <li>研一下修OOAD時，課程專案可以開始接觸實驗室學長姊所開發的系統。</li>
+                                    <li>研一結束後的暑假開始專心研究工作，每週跟老師討論研究進度，慢慢完成自己的研究與論文。</li>
+                                    <li>實驗室每週舉行Group Meeting，每位同學都要參加。每週 1 ～ 2 人輪流報告一篇 Paper，分享給大家。寒暑假Group Meeting照常舉行。</li>
+                                    <li>研一或研二學生共同分配協助擔任TA工作（研一優先）。TA有額外的獎助金。</li>
+                                    <li>參與研討會發表論文。</li>
+                                </ul>
                             </div>
                             </div>
                         </div>
@@ -602,7 +607,7 @@
                             </div>
                             <div id="collapse_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_4">
                             <div class="panel-body">
-                                <p>請使用Email聯繫<a href="#tf-professor">劉建宏老師</a>或<a href="#tf-professor">陳偉凱老師</a>，洽詢面談的時間。地點在第六教學大樓後面的宏裕科技大樓 15 樓。</p>
+                                <p>請使用Email聯繫<a href="#tf-professor">劉建宏老師</a>或<a href="#tf-professor">陳偉凱老師</a>，洽詢面談的時間。地點在宏裕科技大樓 15 樓(第六教學大樓後面)老師的研究室。除了與老師面談以外，老師也會給學長的聯繫方式，讓新生也和實驗室的學長面談。</p>
                                 <div class="row">
                                     <div class="col-md-6"><img src="./image/1521cliu.png" class="img-responsive" alt=""></div>
                                     <div class="col-md-6"><img src="./image/1523wkc.png" class="img-responsive" alt=""></div>
@@ -622,7 +627,7 @@
                             <div class="panel-body">
                                 <p>你可以先看這份面談時會放的<a href="file/研究所新生面談.pdf" target="_blank">PPT</a>想想可回答和想提問的問題，以及觀看下列的Demo影片來了解現在學長姐在做的研究！</p>
                                 <ol>
-                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/fDVlToS4yMQ">Crawler demo</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/fDVlToS4yMQ">Android Crawler demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/UvcYXf0VDzI">CTP Tutorial Analyzing Problems Using Recorded Video</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/BLhIksXoFKc">GUIDE demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/B31ubbtDA7Q">Dr.Smell demo</a></li>

@@ -808,6 +808,10 @@ body{
     font-weight: bold;
 }
 
+#tf-contact ul{
+	padding-left: 25px;
+}
+
 #tf-contact .panel-body{
 	font-size: 16px;
 	text-align: left;
