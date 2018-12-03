@@ -628,9 +628,9 @@
                                 <p>你可以先看這份面談時會放的<a href="file/研究所新生面談.pdf" target="_blank">PPT</a>想想可回答和想提問的問題，以及觀看下列的Demo影片來了解現在學長姐在做的研究！</p>
                                 <ol>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/fDVlToS4yMQ">Android Crawler demo</a></li>
-                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/UvcYXf0VDzI">CTP Tutorial Analyzing Problems Using Recorded Video</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/BLhIksXoFKc">GUIDE demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/B31ubbtDA7Q">Dr.Smell demo</a></li>
+                                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/NyFeK8Pk8eQ">ICAT demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/67rg2X0VYnE">Deep Learning demo</a></li>
                                 </ol>
                             </div>
