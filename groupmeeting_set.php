@@ -23,6 +23,8 @@ if( isset($_POST['gm_date']) && isset($_POST['gm_name']) && isset($_POST['gm_top
 
     $repo->add('data/presentationHistory.json');
     $repo->commit('GroupMeeting data update');
+    $repo->run('config user.email "labsesdt@gmail.com"'); 
+    $repo->run('config user.name "SELab"');
     $repo->push('origin', 'master');
 
     // system('git add data/presentationHistory.json', $out);
