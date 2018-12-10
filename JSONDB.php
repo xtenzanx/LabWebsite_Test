@@ -1,366 +1,197 @@
-<?php 
-declare( strict_types = 1 );
-namespace Jajo;
-class JSONDB {
-	public $file, $content = [];
-	private $where, $select, $merge, $update;
-	private $delete = false;
-	private $last_indexes = [];
-	private $order_by = [];
-	protected $dir;
-	const ASC = 1;
-	const DESC = 0;
-	public function __construct( $dir ) {
-		$this->dir = $dir;
-	}
-	private function check_file() {
-		/**
-		 * Checks and validates if JSON file exists
-		 *
-		 * @return bool
-		*/
-		// Checks if JSON file exists, if not create
-		if( !file_exists( $this->file ) ) {
-			$this->commit();
-		}
-		// Read content of JSON file
-		$content = file_get_contents( $this->file );
-		$content = json_decode( $content );
-		// Check if its arrays of jSON
-		if( !is_array( $content ) && is_object( $content ) ) {
-			throw new \Exception( 'An array of json is required: Json data enclosed with []' );
-			return false;
-		}
-		// An invalid jSON file
-		elseif( !is_array( $content ) && !is_object( $content ) ) {
-			throw new \Exception( 'json is invalid' );
-			return false;
-		}
-		else
-			return true;
-	}
-	public function select( $args = '*' ) {
-		/**
-		 * Explodes the selected columns into array
-		 *
-		 * @param type $args Optional. Default *
-		 * @return type object
-		*/
-		// Explode to array
-		$this->select = explode( ',', $args );
-		// Remove whitespaces
-		$this->select = array_map( 'trim', $this->select );
-		// Remove empty values
-		$this->select = array_filter( $this->select );
-		return $this;
-	}
-	public function from( $file ) {
-		/**
-		 * Loads the jSON file
-		 *
-		 * @param type $file. Accepts file path to jSON file
-		 * @return type object
-		*/
-		$this->file = sprintf( '%s/%s.json', $this->dir, str_replace( '.json', '', $file ) ); // Adding .json extension is no longer necessary
-		// Reset where
-		$this->where( [] );
-		// Reset order by
-		$this->order_by = [];
-		if( $this->check_file() ) {
-			$this->content = ( array ) json_decode( file_get_contents( $this->file ) );
-		}
-		return $this;
-	}
-	public function where( array $columns, $merge = 'OR' ) {
-		$this->where = $columns;
-		$this->merge = $merge;
-		return $this;
-	}
-	public function delete() {
-		$this->delete = true;
-		return $this;
-	}
-	public function update( array $columns ) {
-		$this->update = $columns;
-		return $this;
-	}
-	public function insert( $file, array $values ) : array {
-		$this->from( $file );
-		if( !empty( $this->content[ 0 ] ) ) {
-			$nulls = array_diff_key( ( array ) $this->content[ 0 ], $values );
-			if( $nulls ) {
-				$nulls = array_map( function() {
-					return '';
-				}, $nulls );
-				$values = array_merge( $values, $nulls );
-			}
-		}
-		if( !empty( $this->content ) && array_diff_key( $values, (array ) $this->content[ 0 ] ) ) {
-			throw new Exception( 'Columns must match as of the first row' );
-		}
-		else {
-            // $this->content[] = ( object ) $values;
-            array_unshift($this->content, ( object ) $values); //改成加入到陣列最前面的位置
-			$this->last_indexes = [ ( count( $this->content ) - 1 ) ];
-			$this->commit();
-		}
-		return $this->last_indexes;
-	}
-	public function commit() {
-		$f = fopen( $this->file, 'w+' );
-        // fwrite( $f, ( !$this->content ? '[]' : json_encode( $this->content ) ) );
-        fwrite( $f, ( !$this->content ? '[]' : json_encode( $this->content, JSON_UNESCAPED_UNICODE ) ) ); //解除中文亂碼問題
-		fclose( $f );
-	}
-	private function _update() {
-		if( !empty( $this->last_indexes ) && !empty( $this->where ) ) {
-			foreach( $this->content as $i => $v ) {
-				if( in_array( $i, $this->last_indexes ) ) {
-					$content = ( array ) $this->content[ $i ];
-					if( !array_diff_key( $this->update, $content ) ) {
-						$this->content[ $i ] = ( object ) array_merge( $content, $this->update );
-					}
-					else 
-						throw new Exception( 'Update method has an off key' );
-				}
-				else 
-					continue;
-			}
-		}
-		elseif( !empty( $this->where ) && empty( $this->last_indexes ) ) {
-			null;
-		}
-		else {
-			foreach( $this->content as $i => $v ) {
-				$content = ( array ) $this->content[ $i ];
-				if( !array_diff_key( $this->update, $content ) ) 
-					$this->content[ $i ] = ( object ) array_merge( $content, $this->update );
-				else 
-					throw new Exception( 'Update method has an off key ' );
-			}
-		}
-	}
-	public function trigger() {
-		$content = ( !empty( $this->where ) ? $this->where_result() : $this->content );
-		$return = false;
-		if( $this->delete ) {
-			if( !empty( $this->last_indexes ) && !empty( $this->where ) ) {
-				$this->content = array_map( function( $index, $value ) {
-					if( !in_array( $index, $this->last_indexes ) ) 
-						return $value;
-				}, array_keys( $this->content ), $this->content );
-				$this->content = array_filter( $this->content );
-				//$this->content = array_values( $this->content );
-			}
-			elseif( empty( $this->where ) && empty( $this->last_indexes ) ) {
-				$this->content = array();
-			}
+<?php
+// Straussn's JSON-Databaseclass
+// Handle JSON-Files like a very, very simple DB. Useful for little ajax applications.
+// Last change: 05-06-2012
+// Version: 1.0b
+// by Manuel Strauss, Web: http://straussn.eu, E-Mail: StrZlee@gmx.net, Skype: StrZlee
+/*
+	Example:
+		$db = new JsonDB( "./path_to_my_jsonfiles/" );
+		$result = $db -> select( "json_file_name_without_extension", "search-key", "search-value" );
 			
-			$return = true;
-			$this->delete = false;
-		}
-		elseif( !empty( $this->update ) ) {
-			$this->_update();
-			$this->update = [];
-		}
-		else 
-			$return = false;
-		$this->commit();
-		return $this;
-	}
-	private function where_result() {
-		/*
-			Validates the where statement values
-		*/
-		if( $this->merge == 'AND' ) {
-			return $this->where_and_result();
-		}
-		else {
-			$r = [];
-			// Loop through the existing values. Ge the index and row
-			foreach( $this->content as $index => $row ) {
-				// Make sure its array data type
-				$row = ( array ) $row;
-				// Loop again through each row,  get columns and values
-				foreach( $row as $column => $value ) {
-					// If each of the column is provided in the where statement
-					if( in_array( $column, array_keys( $this->where ) ) ) {
-						// To be sure the where column value and existing row column value matches
-						if( $this->where[ $column ] == $row[ $column ] ) {
-							// Append all to be modified row into a array variable
-							$r[] = $row;
-							// Append also each row array key
-							$this->last_indexes[] = $index;
-						}
-						else 
-							continue;
-					}
-				}
+			Example JSON-File: 
+				[
+					{"ID": "0", "Name": "Hans Wurst", "Age": "12"},
+					{"ID": "1", "Name": "Karl Stoascheissa", "Age": "15"},
+					{"ID": "2", "Name": "Poidl Peidlbecka", "Age": "14"}
+				]
+		
+		Method Overview:
+		
+			new JsonDB(".(path_to_my_jsonfiles/");
+			JsonDB -> createTable("hello_world_table");
+			JsonDB -> select ( "table", "key", "value" ) - Selects multible lines which contains the key/value and returns it as array
+			JsonDB -> selectAll ( "table" )  - Returns the entire file as array
+			JsonDB -> update ( "table", "key", "value", ARRAY ) - Replaces the line which corresponds to the key/value with the array-data
+			JsonDB -> updateAll ( "table", ARRAY ) - Replaces the entire file with the array-data
+			JsonDB -> insert ( "table", ARRAY , $create = FALSE) - Appends a row, returns true on success. if $create is TRUE, we will create the table if it doesn't already exist.
+			JsonDB -> delete ( "table", "key", "value" ) - Deletes all lines which corresponds to the key/value, returns number of deleted lines
+			JsonDB -> deleteAll ( "table" ) - Deletes the whole data, returns "true" on success
+			new JsonTable("./data/test.json", $create = FALSE) - If $create is TRUE, creates table if it doesn't exist.
+*/
+class JsonTable {
+	protected $jsonFile;
+	protected $fileHandle;
+	protected $fileData = array();
+	
+	public function __construct($_jsonFile, $create = false) {
+		if (!file_exists($_jsonFile)) {
+			if($create === true)
+			{
+				$this->createTable($_jsonFile, true);
 			}
-			return $r;
+			else
+			{
+				throw new Exception("JsonTable Error: Table not found: ".$_jsonFile);
+			}
 		}
+		$this->jsonFile = $_jsonFile;
+		$this->fileData = json_decode(file_get_contents($this->jsonFile), true);
+		$this->lockFile();
 	}
 	
-	private function where_and_result() {
-		/*
-			Validates the where statement values
-		*/
-		$r = [];
-		// Loop through the db rows. Ge the index and row
-		foreach( $this->content as $index => $row ) {
-			// Make sure its array data type
-			$row = ( array ) $row;
-			
-			//check if the row = where['col'=>'val', 'col2'=>'val2']
-			if(!array_diff($this->where,$row)) {
-				$r[] = $row;
-				// Append also each row array key
-				$this->last_indexes[] = $index;			
-				
+	public function __destruct() {
+		$this->save();
+		fclose($this->fileHandle);	
+	}
+	
+	protected function lockFile() {
+		$handle = fopen($this->jsonFile, "c");
+		if (flock($handle, LOCK_EX)) $this->fileHandle = $handle;
+		else throw new Exception("JsonTable Error: Can't set file-lock");
+	}
+	
+	protected function save() {
+		if (ftruncate($this->fileHandle, 0) && fwrite($this->fileHandle, json_encode($this->fileData))) return true;
+		else throw new Exception("JsonTable Error: Can't write data to: ".$this->jsonFile);
+	}
+	
+	public function selectAll() {
+		return $this->fileData;
+	}
+	
+	public function select($key, $val = 0) {
+		$result = array();
+		if (is_array($key)) $result = $this->select($key[1], $key[2]);
+		else {
+			$data = $this->fileData;
+			foreach($data as $_key => $_val) {
+				if (isset($data[$_key][$key])) {
+					if ($data[$_key][$key] == $val) {
+						$result[] = $data[$_key];
+					}
+				}
 			}
-			else continue ;
-			
 		}
-		return $r;
+		return $result;
+	}
+	
+	public function updateAll($data = array()) {
+		if (isset($data[0]) && substr_compare($data[0],$this->jsonFile,0)) $data = $data[1];
+		return $this->fileData = empty($data) ? array() : $data;
+	}
+	
+	public function update($key, $val = 0, $newData = array()) {
+		$result = false;
+		if (is_array($key)) $result = $this->update($key[1], $key[2], $key[3]);
+		else {
+			$data = $this->fileData;
+			foreach($data as $_key => $_val) {
+				if (isset($data[$_key][$key])) {
+					if ($data[$_key][$key] == $val) {
+						$data[$_key] = $newData;
+						$result = true;
+						break;
+					}
+				}
+			}
+			if ($result) $this->fileData = $data;
+		}
+		return $result;
+	}
+	
+	public function insert($data = array(), $create = false) {
+		if (isset($data[0]) && substr_compare($data[0],$this->jsonFile,0)) $data = $data[1];
+        // $this->fileData[] = $data;
+        array_unshift($this->fileData, $data); //改成加入到陣列最前面的位置
+		return true;
+	}
+	
+	public function deleteAll() {
+		$this->fileData = array();
+		return true;
+	}
+	
+	public function delete($key, $val = 0) {
+		$result = 0;
+		if (is_array($key)) $result = $this->delete($key[1], $key[2]);
+		else {
+			$data = $this->fileData;
+			foreach($data as $_key => $_val) {
+				if (isset($data[$_key][$key])) {
+					if ($data[$_key][$key] == $val) {
+						unset($data[$_key]);
+						$result++;
+					}
+				}
+			}
+			if ($result) {
+				sort($data);
+				$this->fileData = $data;
+			}
+		}
+		return $result;
+	}
+	public function createTable($tablePath) {
+		if(is_array($tablePath)) $tablePath = $tablePath[0];
+		if(file_exists($tablePath))
+			throw new Exception("Table already exists: ".$tablePath);
+		if(fclose(fopen($tablePath, 'a')))
+		{
+			return true;
+		}
+		else
+		{
+			throw new Exception("New table couldn't be created: ".$tablePath);
+		}
 	}	
-	public function to_xml( $from, $to ) {
-		$this->from( $from );
-		if( $this->content ) {
-			$element = pathinfo( $from, PATHINFO_FILENAME );
-			$xml = '
-			<?xml version="1.0"?>
-				<' . $element . '>
-';
-			
-			foreach( $this->content as $index => $value ) {
-				$xml .= '
-				<DATA>';
-				foreach( $value as $col => $val ) {
-					$xml .= sprintf( '
-					<%s>%s</%s>', $col, $val, $col );
-				}
-				$xml .= '
-				</DATA>
-				';
-			}
-			$xml .= '</' . $element . '>';
-			$xml = trim( $xml );
-			file_put_contents( $to, $xml );
-			return true;
-		}
-		return false;
+	
+}
+class JsonDB {
+	protected $path = "./";
+	protected $fileExt = ".json";
+	protected $tables = array();
+	
+	public function __construct($path) {
+		if (is_dir($path)) $this->path = $path;
+		else throw new Exception("JsonDB Error: Database not found");
 	}
 	
-	public function to_mysql( $from, $to, $create_table = true ) {
-		$this->from( $from );
-		if( $this->content ) {
-			$table = pathinfo( $to, PATHINFO_FILENAME );
-			$sql = "-- PHP-JSONDB JSON to MySQL Dump
---\r\n\r\n";
-			if( $create_table ) {
-				$sql .= "
--- Table Structure for `" . $table . "`
---
-CREATE TABLE `" . $table . "`
-	(
-					";
-				$first_row = ( array ) $this->content[ 0 ];
-				foreach( array_keys( $first_row ) as $column ) {
-					$s = '`' . $column . '` ' . $this->_to_mysql_type( gettype( $first_row[ $column ] ) ) ;
-					$s .= ( next( $first_row ) ? ',' : '' );
-					$sql .= $s;
-				}
-				$sql .= "
-	);\r\n";
-			}
-			foreach( $this->content as $values ) {
-				$values = ( array ) $values;
-				$v = array_map( function( $vv ) {
-					$vv = ( is_array( $vv ) || is_object( $vv ) ? serialize( $vv ) : $vv );
-					return "'" . addslashes( $vv ) . "'";
-				}, array_values( $values ) );
-				$c = array_map( function( $vv ) {
-					return "`" . $vv . "`";
-				}, array_keys( $values ) );
-				$sql .= sprintf( "INSERT INTO `%s` ( %s ) VALUES ( %s );\n", $table, implode( ', ', $c ), implode( ', ', $v ) );
-			}
-			file_put_contents( $to, $sql );
-			return true;
-		}
-		else 
-			return false;
+	protected function getTableInstance($table, $create) {
+		if (isset($tables[$table])) return $tables[$table];
+		else return $tables[$table] = new JsonTable($this->path.$table, $create);
 	}
-	private function _to_mysql_type( $type ) {
-		if( $type == 'bool' ) 
-			$return = 'BOOLEAN';
-		elseif( $type == 'integer' ) 
-			$return = 'INT';
-		elseif( $type == 'double' ) 
-			$return = strtoupper( $type );
-		else
-			$return = 'VARCHAR( 255 )';
-		return $return;
+	
+	public function __call($op, $args) {
+		if ($args && method_exists("JsonTable", $op)) {
+			$table = $args[0].$this->fileExt;
+			$create = false;
+			if($op == "createTable")
+			{
+				return $this->getTableInstance($table, true);
+			}
+			elseif($op == "insert" && isset($args[2]) && $args[2] === true)
+			{
+				$create = true;
+			}
+			return $this->getTableInstance($table, $create)->$op($args);
+		} else throw new Exception("JsonDB Error: Unknown method or wrong arguments ");
 	}
-	public function order_by( $column, $order = self::ASC ) {
-		$this->order_by = [ $column, $order ];
+	
+	public function setExtension($_fileExt) {
+		$this->fileExt = $_fileExt;
 		return $this;
 	}
-	private function _process_order_by( $content ) {
-		if( $this->order_by && $content && in_array( $this->order_by[ 0 ], array_keys( ( array ) $content[ 0 ] ) ) ) {
-			/*
-				* Check if order by was specified
-				* Check if there's actually a result of the query
-				* Makes sure the column  actually exists in the list of columns
-			*/
-			list( $sort_column, $order_by ) = $this->order_by;
-			$sort_keys = [];
-			$sorted = [];
-			foreach( $content as $index => $value ) {
-				$value = ( array ) $value;
-				// Save the index and value so we can use them to sort
-				$sort_keys[ $index ] = $value[ $sort_column ];
-			}
-			
-			// Let's sort!
-			if( $order_by == self::ASC ) {
-				asort( $sort_keys );
-			}
-			elseif( $order_by == self::DESC ) {
-				arsort( $sort_keys );
-			}
-			// We are done with sorting, lets use the sorted array indexes to pull back the original content and return new content
-			foreach( $sort_keys as $index => $value ) {
-				$sorted[ $index ] = ( array ) $content[ $index ];
-			}
-			$content = $sorted;
-		}
-		return $content;
-	}
-	public function get() {
-		if($this->where != null) {
-			$content = $this->where_result();
-		}
-		else 
-			$content = $this->content; 
-		
-		if( $this->select && !in_array( '*', $this->select ) ) {
-			$r = [];
-			foreach( $content as $id => $row ) {
-				$row = ( array ) $row;
-				foreach( $row as $key => $val ) {
-					if( in_array( $key, $this->select ) ) {
-						$r[ $id ][ $key ] = $val;
-					} 
-					else 
-						continue;
-				}
-			}
-			$content = $r;
-		}
-		// Finally, lets do sorting :)
-		$content = $this->_process_order_by( $content );
-		
-		return $content;
-	}
+	
 }
 ?>
