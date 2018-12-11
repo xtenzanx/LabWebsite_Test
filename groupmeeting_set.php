@@ -17,7 +17,7 @@ if( isset($_POST['gm_date']) && isset($_POST['gm_name']) && isset($_POST['gm_top
     // $repo->run('config user.email "labsesdt@gmail.com"'); 
     // $repo->run('config user.name "SELab"');
     // $repo->run('config user.password "password"');
-    $repo->push('origin', 'master');
+    // $repo->push('origin', 'master');
 }
 
 header ("Location:  index.php");
