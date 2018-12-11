@@ -11,13 +11,13 @@ if( isset($_POST['gm_date']) && isset($_POST['gm_name']) && isset($_POST['gm_top
 
     sleep(0.5);
 
-    $repo = Git::open( __DIR__ );  // -or- Git::create('/path/to/repo')
-    $repo->add('data/presentationHistory.json');
-    $repo->commit('GroupMeeting data update');
+    // $repo = Git::open( __DIR__ );  // -or- Git::create('/path/to/repo')
+    // $repo->add('data/presentationHistory.json');
+    // $repo->commit('GroupMeeting data update');
     // $repo->run('config user.email "labsesdt@gmail.com"'); 
     // $repo->run('config user.name "SELab"');
     // $repo->run('config user.password "password"');
-    $repo->push('origin', 'master');
+    // $repo->push('origin', 'master');
 }
 
 header ("Location:  index.php");

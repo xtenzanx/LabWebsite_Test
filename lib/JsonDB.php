@@ -57,8 +57,9 @@ class JsonTable {
 	
 	protected function lockFile() {
 		$handle = fopen($this->jsonFile, "c");
-		if (flock($handle, LOCK_EX)) $this->fileHandle = $handle;
-		else throw new Exception("JsonTable Error: Can't set file-lock");
+		$this->fileHandle = $handle;
+		// if (flock($handle, LOCK_EX)) $this->fileHandle = $handle;
+		// else throw new Exception("JsonTable Error: Can't set file-lock");
 	}
 	
 	protected function save() {
