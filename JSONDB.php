@@ -62,7 +62,7 @@ class JsonTable {
 	}
 	
 	protected function save() {
-		if (ftruncate($this->fileHandle, 0) && fwrite($this->fileHandle, json_encode($this->fileData))) return true;
+		if (ftruncate($this->fileHandle, 0) && fwrite($this->fileHandle, json_encode($this->fileData, JSON_UNESCAPED_UNICODE))) return true;
 		else throw new Exception("JsonTable Error: Can't write data to: ".$this->jsonFile);
 	}
 	
