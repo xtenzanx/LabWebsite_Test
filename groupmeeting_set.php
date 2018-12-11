@@ -2,7 +2,7 @@
 header('Content-Type:text/html;charset=utf-8');
 
 require_once('lib/JsonDB.php');
-require_once('lib/Git.php');
+require_once('Git.php');
 
 if( isset($_POST['gm_date']) && isset($_POST['gm_name']) && isset($_POST['gm_topic']) ){
 
