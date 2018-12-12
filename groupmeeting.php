@@ -69,7 +69,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tf-home" class="page-scroll">首頁</a></li>
             <li><a href="#tf-groupmeeting" class="page-scroll">論文報告</a></li>
             <li>
                 <div id="div_translate">
@@ -105,13 +104,14 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="gm_name">報告人</label>
-                                    <input type="text" class="form-control" id="gm_name" name="gm_name" placeholder="請輸入報告人姓名" required>
+                                    <input type="text" class="form-control" id="gm_name" name="gm_name" placeholder="請輸入報告人姓名 (ex: 郭小陞)" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="gm_topic">標題</label>
-                                    <input type="text" class="form-control" id="gm_topic" name="gm_topic" placeholder="請輸入報告的論文標題" required>
+                                    <input type="text" class="form-control" id="gm_topic" name="gm_topic" placeholder="請輸入報告的論文標題 (ex: Generating musical expression of MIDI music with LSTM neural network)" required>
                                 </div>
-                                <button type="submit" class="btn btn-default">Submit</button>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#checkModal">Submit</button>
+                                <button type="submit" class="hidden">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -136,16 +136,33 @@
         </div>
     </nav>
 
-
-
     <!-- Modal -->
-    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal fade" id="checkModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fDVlToS4yMQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">資料確認</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="img-responsive" src="image/Uncle_Sam.png" alt="Uncle_Sam">
+                        </div>
+                        <div class="col-md-7">
+                            <h3>重要提醒！！</h3>
+                            <p>送出後將無法進行修改，你敢確定資料無誤並送出?!</p>
+                            <div id="div_checkData">
+                                <p>日期：<span id="sp_date"></span></p>
+                                <p>報告人：<span id="sp_name"></span></p>
+                                <p>標題：<span id="sp_topic"></span></p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">我後悔了</button>
+                    <button type="button" class="btn btn-primary" onclick="submitData()">我很確定</button>
                 </div>
             </div>
         </div>
@@ -168,12 +185,21 @@
     <script type="text/javascript" src="js/main.js"></script>
 
     <script>
-    $('.bs-example-modal-lg').on('show.bs.modal', function (event) {
-        var button = $(event.relatedTarget);
-        var recipient = button.data('whatever');
+    // 資料確認視窗
+    $('#checkModal').on('show.bs.modal', function (event) {
+        var gm_date = $('#gm_date').val();
+        var gm_name = $('#gm_name').val();
+        var gm_topic = $('#gm_topic').val();
         var modal = $(this);
-        modal.find('.embed-responsive-item').attr("src",recipient);
+        modal.find('#sp_date').text(gm_date);
+        modal.find('#sp_name').text(gm_name);
+        modal.find('#sp_topic').text(gm_topic);
     });
+
+    function submitData(){
+        $('#checkModal').modal('hide');
+        $('.hidden').click();
+    }
     </script>
 
     <!-- google translate -->

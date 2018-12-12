@@ -853,3 +853,19 @@ body{
 	background-attachment: fixed;
 	height: 100%;
 }
+
+#checkModal{
+	font-size: 20px;
+}
+
+#checkModal h3{
+	font-size: 30px;
+	margin-top: 12%;
+}
+#div_checkData{
+    margin: 80px 0px 0px 0px;
+}
+
+#div_checkData span{
+	color: cadetblue;
+}
