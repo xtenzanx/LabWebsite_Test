@@ -607,7 +607,7 @@
                             </div>
                             <div id="collapse_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_5">
                             <div class="panel-body">
-                                <p>你可以先看這份面談時會放的<a href="file/研究所新生面談.pdf" target="_blank">PPT</a>想想可回答和想提問的問題，以及觀看下列的Demo影片來了解現在學長姐在做的研究！</p>
+                                <p>你可以先看這份面談時會放的 <a href="file/研究所新生面談.pdf" target="_blank"><i class="fas fa-file-powerpoint"></i>PPT</a> 想想可回答和想提問的問題，以及觀看下列的Demo影片來了解現在學長姐在做的研究！</p>
                                 <ol>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/fDVlToS4yMQ">Android Crawler demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/BLhIksXoFKc">GUIDE demo</a></li>
@@ -628,7 +628,7 @@
                             </div>
                             <div id="collapse_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_4">
                             <div class="panel-body">
-                                <p>請使用Email聯繫<a href="#tf-professor">劉建宏老師</a>或<a href="#tf-professor">陳偉凱老師</a>，洽詢面談的時間。地點在宏裕科技大樓 15 樓(第六教學大樓後面)老師的研究室。除了與老師面談以外，老師也會給學長的聯繫方式，讓新生也和實驗室的學長面談。</p>
+                                <p>請使用Email聯繫<a href="#tf-professor">劉建宏老師</a>或<a href="#tf-professor">陳偉凱老師</a>，洽詢面談的時間。地點在宏裕科技大樓 15 樓(第六教學大樓後面)老師的研究室。面談時甄試生請攜帶<b>在校及甄試成績單</b>，一般生請攜帶<b>在校及筆試成績單</b>（影本或網頁列印均可）。除了與老師面談以外，老師也會給學長的聯繫方式，讓新生也和實驗室的學長面談。</p>
                                 <div class="row">
                                     <div class="col-md-6"><img src="./image/1521cliu.png" class="img-responsive" alt=""></div>
                                     <div class="col-md-6"><img src="./image/1523wkc.png" class="img-responsive" alt=""></div>
