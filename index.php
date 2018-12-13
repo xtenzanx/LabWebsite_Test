@@ -63,7 +63,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">SELab & SDTLab</a>
+          <a class="navbar-brand" href="index.php">SDTLab (SELab)</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -96,8 +96,8 @@
     <div id="tf-home" class="text-center">
         <div class="overlay">
             <div class="content">
-                <h1><strong><span class="color">軟體工程實驗室</span></strong> && <strong><span class="color">軟體開發與測試實驗室</span></strong></h1>
-                <p class="lead"><strong>SELab</strong> & <strong>SDTLab</strong></p>
+                <h1><strong><span class="color">軟體開發與測試實驗室 (軟體工程實驗室)</span></strong></h1>
+                <p class="lead"><strong>SDTLab (SELab)</strong></p>
                 <a href="#tf-professor" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>
@@ -598,24 +598,6 @@
                             </div>
                         </div>
                         <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="heading_4">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_4" aria-expanded="false" aria-controls="collapse_4">
-                                    <span class="sp_big">想 </span>跟 老 師 們 聊 聊 嗎 ？
-                                </a>
-                            </h4>
-                            </div>
-                            <div id="collapse_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_4">
-                            <div class="panel-body">
-                                <p>請使用Email聯繫<a href="#tf-professor">劉建宏老師</a>或<a href="#tf-professor">陳偉凱老師</a>，洽詢面談的時間。地點在宏裕科技大樓 15 樓(第六教學大樓後面)老師的研究室。除了與老師面談以外，老師也會給學長的聯繫方式，讓新生也和實驗室的學長面談。</p>
-                                <div class="row">
-                                    <div class="col-md-6"><img src="./image/1521cliu.png" class="img-responsive" alt=""></div>
-                                    <div class="col-md-6"><img src="./image/1523wkc.png" class="img-responsive" alt=""></div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading_5">
                             <h4 class="panel-title">
                                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_5" aria-expanded="false" aria-controls="collapse_5">
@@ -633,6 +615,24 @@
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/NyFeK8Pk8eQ">ICAT demo</a></li>
                                     <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg" data-whatever="https://www.youtube.com/embed/67rg2X0VYnE">Deep Learning demo</a></li>
                                 </ol>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading_4">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse_4" aria-expanded="false" aria-controls="collapse_4">
+                                    <span class="sp_big">想 </span>跟 老 師 們 面 談 嗎 ？
+                                </a>
+                            </h4>
+                            </div>
+                            <div id="collapse_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_4">
+                            <div class="panel-body">
+                                <p>請使用Email聯繫<a href="#tf-professor">劉建宏老師</a>或<a href="#tf-professor">陳偉凱老師</a>，洽詢面談的時間。地點在宏裕科技大樓 15 樓(第六教學大樓後面)老師的研究室。除了與老師面談以外，老師也會給學長的聯繫方式，讓新生也和實驗室的學長面談。</p>
+                                <div class="row">
+                                    <div class="col-md-6"><img src="./image/1521cliu.png" class="img-responsive" alt=""></div>
+                                    <div class="col-md-6"><img src="./image/1523wkc.png" class="img-responsive" alt=""></div>
+                                </div>
                             </div>
                             </div>
                         </div>
