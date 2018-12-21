@@ -96,24 +96,22 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <div id="">
-                            <form action="groupmeeting_set.php" method="post" autocomplete="off">
-                                <div class="form-group">
-                                    <label for="gm_date">日期</label>
-                                    <input type="date" class="form-control" id="gm_date" name="gm_date" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="gm_name">報告人</label>
-                                    <input type="text" class="form-control" id="gm_name" name="gm_name" placeholder="請輸入報告人姓名 (ex: 郭小陞)" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="gm_topic">標題</label>
-                                    <input type="text" class="form-control" id="gm_topic" name="gm_topic" placeholder="請輸入報告的論文標題 (ex: Generating musical expression of MIDI music with LSTM neural network)" required>
-                                </div>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#checkModal">Submit</button>
-                                <button type="submit" class="hidden">Submit</button>
-                            </form>
-                        </div>
+                        <form action="groupmeeting_set.php" method="post" autocomplete="off">
+                            <div class="form-group">
+                                <label for="gm_date">日期</label>
+                                <input type="date" class="form-control" id="gm_date" name="gm_date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="gm_name">報告人</label>
+                                <input type="text" class="form-control" id="gm_name" name="gm_name" placeholder="請輸入報告人姓名 (ex: 郭小陞)" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="gm_topic">標題</label>
+                                <input type="text" class="form-control" id="gm_topic" name="gm_topic" placeholder="請輸入報告的論文標題 (ex: Generating musical expression of MIDI music with LSTM neural network)" required>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#checkModal">Submit</button>
+                            <button type="submit" class="hidden">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -146,12 +144,12 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-4">
                             <img class="img-responsive" src="image/Uncle_Sam.png" alt="Uncle_Sam">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-8">
                             <h3>重要提醒！！</h3>
-                            <p>送出後將無法進行修改，你敢確定資料無誤並送出?!</p>
+                            <p>送出後將<span id="sp_important">無法進行修改</span>，你敢確定資料無誤並送出?!</p>
                             <div id="div_checkData">
                                 <p>日期：<span id="sp_date"></span></p>
                                 <p>報告人：<span id="sp_name"></span></p>
